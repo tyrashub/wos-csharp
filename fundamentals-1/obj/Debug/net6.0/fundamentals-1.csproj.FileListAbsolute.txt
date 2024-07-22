@@ -1,0 +1,15 @@
+C:\Users\TyraCato\Desktop\wos-csharp\fundamentals-1\bin\Debug\net6.0\fundamentals-1.exe
+C:\Users\TyraCato\Desktop\wos-csharp\fundamentals-1\bin\Debug\net6.0\fundamentals-1.deps.json
+C:\Users\TyraCato\Desktop\wos-csharp\fundamentals-1\bin\Debug\net6.0\fundamentals-1.runtimeconfig.json
+C:\Users\TyraCato\Desktop\wos-csharp\fundamentals-1\bin\Debug\net6.0\fundamentals-1.dll
+C:\Users\TyraCato\Desktop\wos-csharp\fundamentals-1\bin\Debug\net6.0\fundamentals-1.pdb
+C:\Users\TyraCato\Desktop\wos-csharp\fundamentals-1\obj\Debug\net6.0\fundamentals-1.csproj.AssemblyReference.cache
+C:\Users\TyraCato\Desktop\wos-csharp\fundamentals-1\obj\Debug\net6.0\fundamentals-1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TyraCato\Desktop\wos-csharp\fundamentals-1\obj\Debug\net6.0\fundamentals-1.AssemblyInfoInputs.cache
+C:\Users\TyraCato\Desktop\wos-csharp\fundamentals-1\obj\Debug\net6.0\fundamentals-1.AssemblyInfo.cs
+C:\Users\TyraCato\Desktop\wos-csharp\fundamentals-1\obj\Debug\net6.0\fundamentals-1.csproj.CoreCompileInputs.cache
+C:\Users\TyraCato\Desktop\wos-csharp\fundamentals-1\obj\Debug\net6.0\fundamentals-1.dll
+C:\Users\TyraCato\Desktop\wos-csharp\fundamentals-1\obj\Debug\net6.0\refint\fundamentals-1.dll
+C:\Users\TyraCato\Desktop\wos-csharp\fundamentals-1\obj\Debug\net6.0\fundamentals-1.pdb
+C:\Users\TyraCato\Desktop\wos-csharp\fundamentals-1\obj\Debug\net6.0\fundamentals-1.genruntimeconfig.cache
+C:\Users\TyraCato\Desktop\wos-csharp\fundamentals-1\obj\Debug\net6.0\ref\fundamentals-1.dll
