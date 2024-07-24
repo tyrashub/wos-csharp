@@ -1,29 +1,120 @@
-﻿using System;
-
-class Program
+﻿static void StartGame(Dictionary<string, string> choices)
 {
-    static void Main()
+    Console.WriteLine("Welcome to Rock, Paper, Scissors!");
+    string username = GetUsername();
+    Console.WriteLine($"Greetings, {username}.");
+
+    bool playAgain;
+
+    do
     {
-        // Welcome Message
-        Console.WriteLine("Welcome to Rock, Paper, Scissors game!");
-        string playerName;
+        string computerChoice = GetComputerChoice(choices);
+        string userChoice = GetUserChoice(choices);
 
-        // User Input: Prompt the user for their name and ensure it is at least three characters long.
-        do
+        string result = DetermineWinner(userChoice, computerChoice);
+        Console.WriteLine(result);
+        playAgain = AskToPlayAgain();
+
+    } while (playAgain);
+}
+
+static string GetUsername()
+{
+    Console.Write("What should I call you? ");
+    string? username;
+
+    do
+    {
+        username = Console.ReadLine();
+        if (username != null)
         {
-            Console.Write("Please enter your name (at least 3 characters): ");
-            playerName = Console.ReadLine().Trim();
-        } while (playerName.Length < 3);
+            username = username.Trim();
+        }
 
-        Console.WriteLine($"\nHello, {playerName}!");
+        if (username == null || username.Length < 3)
+        {
+            Console.WriteLine("Usernames must be at least three characters.");
+            Console.Write("What should I call you? ");
+        }
+    }
+    while (username == null || username.Length < 3);
 
-        // Game Instructions
-        Console.WriteLine("\nRandomly choose one of three hand signs: ROCK, PAPER, or SCISSORS.");
-        Console.WriteLine("1. Rock wins against scissors.");
-        Console.WriteLine("2. Scissors win against paper.");
-        Console.WriteLine("3. Paper wins against rock.");
-        Console.WriteLine("If both players show the same sign, it's a tie.");
+    return username;
+}
 
-        Console.ReadLine();
+static string GetComputerChoice(Dictionary<string, string> choices)
+{
+    var choiceValues = choices.Values.ToList();
+
+    var rand = new Random();
+    int randomIndex = rand.Next(choiceValues.Count);
+    return choiceValues[randomIndex];
+}
+
+static string GetUserChoice(Dictionary<string, string> choices)
+{
+    Console.WriteLine("Ready?");
+    Console.WriteLine("Press Enter key to start.");
+    Console.ReadLine();
+
+    for (var i = 3; i > 0; i--)
+    {
+        Console.WriteLine(i);
+        Thread.Sleep(1000);
+    }
+
+    Console.WriteLine("Go!");
+    string? userChoice;
+
+    do
+    {
+        Console.Write("Enter your choice (r for Rock, p for Paper, s for Scissors): ");
+
+        userChoice = Console.ReadLine();
+        if (userChoice != null)
+        {
+            userChoice = userChoice.Trim().ToLower();
+        }
+        if (userChoice == null || !choices.Keys.ToList().Contains(userChoice))
+        {
+            Console.WriteLine("Invalid choice.");
+        }
+    }
+    while (userChoice == null || !choices.Keys.ToList().Contains(userChoice));
+
+    return choices[userChoice];
+}
+
+static string DetermineWinner(string userChoice, string computerChoice)
+{
+    if (userChoice == computerChoice)
+    {
+        return "It's a tie!";
+    }
+    else if ((userChoice == "Rock" && computerChoice == "Scissors") ||
+             (userChoice == "Paper" && computerChoice == "Rock") ||
+             (userChoice == "Scissors" && computerChoice == "Paper"))
+    {
+        return "You win!";
+    }
+    else
+    {
+        return "Computer wins!";
     }
 }
+
+static bool AskToPlayAgain()
+{
+    Console.Write("Do you want to play again? (y/n): ");
+    string? response = Console.ReadLine();
+    return response != null && response.Trim().Equals("y", StringComparison.CurrentCultureIgnoreCase);
+}
+
+var choices = new Dictionary<string, string>
+{
+    {"r", "Rock"},
+    {"p", "Paper"},
+    {"s", "Scissors"},
+};
+
+StartGame(choices);
