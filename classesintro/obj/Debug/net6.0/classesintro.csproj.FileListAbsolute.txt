@@ -1,0 +1,15 @@
+C:\Users\TyraCato\Desktop\wos-csharp\classesintro\obj\Debug\net6.0\classesintro.csproj.AssemblyReference.cache
+C:\Users\TyraCato\Desktop\wos-csharp\classesintro\obj\Debug\net6.0\classesintro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TyraCato\Desktop\wos-csharp\classesintro\obj\Debug\net6.0\classesintro.AssemblyInfoInputs.cache
+C:\Users\TyraCato\Desktop\wos-csharp\classesintro\obj\Debug\net6.0\classesintro.AssemblyInfo.cs
+C:\Users\TyraCato\Desktop\wos-csharp\classesintro\obj\Debug\net6.0\classesintro.csproj.CoreCompileInputs.cache
+C:\Users\TyraCato\Desktop\wos-csharp\classesintro\bin\Debug\net6.0\classesintro.exe
+C:\Users\TyraCato\Desktop\wos-csharp\classesintro\bin\Debug\net6.0\classesintro.deps.json
+C:\Users\TyraCato\Desktop\wos-csharp\classesintro\bin\Debug\net6.0\classesintro.runtimeconfig.json
+C:\Users\TyraCato\Desktop\wos-csharp\classesintro\bin\Debug\net6.0\classesintro.dll
+C:\Users\TyraCato\Desktop\wos-csharp\classesintro\bin\Debug\net6.0\classesintro.pdb
+C:\Users\TyraCato\Desktop\wos-csharp\classesintro\obj\Debug\net6.0\classesintro.dll
+C:\Users\TyraCato\Desktop\wos-csharp\classesintro\obj\Debug\net6.0\refint\classesintro.dll
+C:\Users\TyraCato\Desktop\wos-csharp\classesintro\obj\Debug\net6.0\classesintro.pdb
+C:\Users\TyraCato\Desktop\wos-csharp\classesintro\obj\Debug\net6.0\classesintro.genruntimeconfig.cache
+C:\Users\TyraCato\Desktop\wos-csharp\classesintro\obj\Debug\net6.0\ref\classesintro.dll
