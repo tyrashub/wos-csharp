@@ -1,0 +1,15 @@
+C:\Users\TyraCato\desktop\wos-csharp\02-oop\InterfacesAndAbstractClassesExercise\bin\Debug\net6.0\InterfacesAndAbstractClassesExercise.exe
+C:\Users\TyraCato\desktop\wos-csharp\02-oop\InterfacesAndAbstractClassesExercise\bin\Debug\net6.0\InterfacesAndAbstractClassesExercise.deps.json
+C:\Users\TyraCato\desktop\wos-csharp\02-oop\InterfacesAndAbstractClassesExercise\bin\Debug\net6.0\InterfacesAndAbstractClassesExercise.runtimeconfig.json
+C:\Users\TyraCato\desktop\wos-csharp\02-oop\InterfacesAndAbstractClassesExercise\bin\Debug\net6.0\InterfacesAndAbstractClassesExercise.dll
+C:\Users\TyraCato\desktop\wos-csharp\02-oop\InterfacesAndAbstractClassesExercise\bin\Debug\net6.0\InterfacesAndAbstractClassesExercise.pdb
+C:\Users\TyraCato\desktop\wos-csharp\02-oop\InterfacesAndAbstractClassesExercise\obj\Debug\net6.0\InterfacesAndAbstractClassesExercise.csproj.AssemblyReference.cache
+C:\Users\TyraCato\desktop\wos-csharp\02-oop\InterfacesAndAbstractClassesExercise\obj\Debug\net6.0\InterfacesAndAbstractClassesExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TyraCato\desktop\wos-csharp\02-oop\InterfacesAndAbstractClassesExercise\obj\Debug\net6.0\InterfacesAndAbstractClassesExercise.AssemblyInfoInputs.cache
+C:\Users\TyraCato\desktop\wos-csharp\02-oop\InterfacesAndAbstractClassesExercise\obj\Debug\net6.0\InterfacesAndAbstractClassesExercise.AssemblyInfo.cs
+C:\Users\TyraCato\desktop\wos-csharp\02-oop\InterfacesAndAbstractClassesExercise\obj\Debug\net6.0\InterfacesAndAbstractClassesExercise.csproj.CoreCompileInputs.cache
+C:\Users\TyraCato\desktop\wos-csharp\02-oop\InterfacesAndAbstractClassesExercise\obj\Debug\net6.0\InterfacesAndAbstractClassesExercise.dll
+C:\Users\TyraCato\desktop\wos-csharp\02-oop\InterfacesAndAbstractClassesExercise\obj\Debug\net6.0\refint\InterfacesAndAbstractClassesExercise.dll
+C:\Users\TyraCato\desktop\wos-csharp\02-oop\InterfacesAndAbstractClassesExercise\obj\Debug\net6.0\InterfacesAndAbstractClassesExercise.pdb
+C:\Users\TyraCato\desktop\wos-csharp\02-oop\InterfacesAndAbstractClassesExercise\obj\Debug\net6.0\InterfacesAndAbstractClassesExercise.genruntimeconfig.cache
+C:\Users\TyraCato\desktop\wos-csharp\02-oop\InterfacesAndAbstractClassesExercise\obj\Debug\net6.0\ref\InterfacesAndAbstractClassesExercise.dll

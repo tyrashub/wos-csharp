@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TyraCato\\desktop\\wos-csharp\\GameDev\\GameDev.csproj": {}
+    "C:\\Users\\TyraCato\\desktop\\wos-csharp\\02-oop\\InterfacesAndAbstractClassesExercise\\InterfacesAndAbstractClassesExercise.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TyraCato\\desktop\\wos-csharp\\GameDev\\GameDev.csproj": {
+    "C:\\Users\\TyraCato\\desktop\\wos-csharp\\02-oop\\InterfacesAndAbstractClassesExercise\\InterfacesAndAbstractClassesExercise.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\GameDev\\GameDev.csproj",
-        "projectName": "GameDev",
-        "projectPath": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\GameDev\\GameDev.csproj",
+        "projectUniqueName": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\02-oop\\InterfacesAndAbstractClassesExercise\\InterfacesAndAbstractClassesExercise.csproj",
+        "projectName": "InterfacesAndAbstractClassesExercise",
+        "projectPath": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\02-oop\\InterfacesAndAbstractClassesExercise\\InterfacesAndAbstractClassesExercise.csproj",
         "packagesPath": "C:\\Users\\TyraCato\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\GameDev\\obj\\",
+        "outputPath": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\02-oop\\InterfacesAndAbstractClassesExercise\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TyraCato\\AppData\\Roaming\\NuGet\\NuGet.Config"
