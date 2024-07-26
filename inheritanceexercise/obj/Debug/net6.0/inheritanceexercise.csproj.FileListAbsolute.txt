@@ -1,0 +1,15 @@
+C:\Users\TyraCato\desktop\wos-csharp\inheritanceexercise\bin\Debug\net6.0\inheritanceexercise.exe
+C:\Users\TyraCato\desktop\wos-csharp\inheritanceexercise\bin\Debug\net6.0\inheritanceexercise.deps.json
+C:\Users\TyraCato\desktop\wos-csharp\inheritanceexercise\bin\Debug\net6.0\inheritanceexercise.runtimeconfig.json
+C:\Users\TyraCato\desktop\wos-csharp\inheritanceexercise\bin\Debug\net6.0\inheritanceexercise.dll
+C:\Users\TyraCato\desktop\wos-csharp\inheritanceexercise\bin\Debug\net6.0\inheritanceexercise.pdb
+C:\Users\TyraCato\desktop\wos-csharp\inheritanceexercise\obj\Debug\net6.0\inheritanceexercise.csproj.AssemblyReference.cache
+C:\Users\TyraCato\desktop\wos-csharp\inheritanceexercise\obj\Debug\net6.0\inheritanceexercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TyraCato\desktop\wos-csharp\inheritanceexercise\obj\Debug\net6.0\inheritanceexercise.AssemblyInfoInputs.cache
+C:\Users\TyraCato\desktop\wos-csharp\inheritanceexercise\obj\Debug\net6.0\inheritanceexercise.AssemblyInfo.cs
+C:\Users\TyraCato\desktop\wos-csharp\inheritanceexercise\obj\Debug\net6.0\inheritanceexercise.csproj.CoreCompileInputs.cache
+C:\Users\TyraCato\desktop\wos-csharp\inheritanceexercise\obj\Debug\net6.0\inheritanceexercise.dll
+C:\Users\TyraCato\desktop\wos-csharp\inheritanceexercise\obj\Debug\net6.0\refint\inheritanceexercise.dll
+C:\Users\TyraCato\desktop\wos-csharp\inheritanceexercise\obj\Debug\net6.0\inheritanceexercise.pdb
+C:\Users\TyraCato\desktop\wos-csharp\inheritanceexercise\obj\Debug\net6.0\inheritanceexercise.genruntimeconfig.cache
+C:\Users\TyraCato\desktop\wos-csharp\inheritanceexercise\obj\Debug\net6.0\ref\inheritanceexercise.dll
