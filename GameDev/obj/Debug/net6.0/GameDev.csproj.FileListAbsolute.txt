@@ -1,0 +1,15 @@
+C:\Users\TyraCato\Desktop\wos-csharp\GameDev\bin\Debug\net6.0\GameDev.exe
+C:\Users\TyraCato\Desktop\wos-csharp\GameDev\bin\Debug\net6.0\GameDev.deps.json
+C:\Users\TyraCato\Desktop\wos-csharp\GameDev\bin\Debug\net6.0\GameDev.runtimeconfig.json
+C:\Users\TyraCato\Desktop\wos-csharp\GameDev\bin\Debug\net6.0\GameDev.dll
+C:\Users\TyraCato\Desktop\wos-csharp\GameDev\bin\Debug\net6.0\GameDev.pdb
+C:\Users\TyraCato\Desktop\wos-csharp\GameDev\obj\Debug\net6.0\GameDev.csproj.AssemblyReference.cache
+C:\Users\TyraCato\Desktop\wos-csharp\GameDev\obj\Debug\net6.0\GameDev.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TyraCato\Desktop\wos-csharp\GameDev\obj\Debug\net6.0\GameDev.AssemblyInfoInputs.cache
+C:\Users\TyraCato\Desktop\wos-csharp\GameDev\obj\Debug\net6.0\GameDev.AssemblyInfo.cs
+C:\Users\TyraCato\Desktop\wos-csharp\GameDev\obj\Debug\net6.0\GameDev.csproj.CoreCompileInputs.cache
+C:\Users\TyraCato\Desktop\wos-csharp\GameDev\obj\Debug\net6.0\GameDev.dll
+C:\Users\TyraCato\Desktop\wos-csharp\GameDev\obj\Debug\net6.0\refint\GameDev.dll
+C:\Users\TyraCato\Desktop\wos-csharp\GameDev\obj\Debug\net6.0\GameDev.pdb
+C:\Users\TyraCato\Desktop\wos-csharp\GameDev\obj\Debug\net6.0\GameDev.genruntimeconfig.cache
+C:\Users\TyraCato\Desktop\wos-csharp\GameDev\obj\Debug\net6.0\ref\GameDev.dll
