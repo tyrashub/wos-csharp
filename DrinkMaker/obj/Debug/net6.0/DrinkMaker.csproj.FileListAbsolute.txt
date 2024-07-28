@@ -1,0 +1,15 @@
+C:\Users\TyraCato\desktop\wos-csharp\DrinkMaker\bin\Debug\net6.0\DrinkMaker.exe
+C:\Users\TyraCato\desktop\wos-csharp\DrinkMaker\bin\Debug\net6.0\DrinkMaker.deps.json
+C:\Users\TyraCato\desktop\wos-csharp\DrinkMaker\bin\Debug\net6.0\DrinkMaker.runtimeconfig.json
+C:\Users\TyraCato\desktop\wos-csharp\DrinkMaker\bin\Debug\net6.0\DrinkMaker.dll
+C:\Users\TyraCato\desktop\wos-csharp\DrinkMaker\bin\Debug\net6.0\DrinkMaker.pdb
+C:\Users\TyraCato\desktop\wos-csharp\DrinkMaker\obj\Debug\net6.0\DrinkMaker.csproj.AssemblyReference.cache
+C:\Users\TyraCato\desktop\wos-csharp\DrinkMaker\obj\Debug\net6.0\DrinkMaker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TyraCato\desktop\wos-csharp\DrinkMaker\obj\Debug\net6.0\DrinkMaker.AssemblyInfoInputs.cache
+C:\Users\TyraCato\desktop\wos-csharp\DrinkMaker\obj\Debug\net6.0\DrinkMaker.AssemblyInfo.cs
+C:\Users\TyraCato\desktop\wos-csharp\DrinkMaker\obj\Debug\net6.0\DrinkMaker.csproj.CoreCompileInputs.cache
+C:\Users\TyraCato\desktop\wos-csharp\DrinkMaker\obj\Debug\net6.0\DrinkMaker.dll
+C:\Users\TyraCato\desktop\wos-csharp\DrinkMaker\obj\Debug\net6.0\refint\DrinkMaker.dll
+C:\Users\TyraCato\desktop\wos-csharp\DrinkMaker\obj\Debug\net6.0\DrinkMaker.pdb
+C:\Users\TyraCato\desktop\wos-csharp\DrinkMaker\obj\Debug\net6.0\DrinkMaker.genruntimeconfig.cache
+C:\Users\TyraCato\desktop\wos-csharp\DrinkMaker\obj\Debug\net6.0\ref\DrinkMaker.dll
