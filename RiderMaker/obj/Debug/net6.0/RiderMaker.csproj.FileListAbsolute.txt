@@ -1,0 +1,15 @@
+C:\Users\TyraCato\desktop\wos-csharp\RiderMaker\bin\Debug\net6.0\RiderMaker.exe
+C:\Users\TyraCato\desktop\wos-csharp\RiderMaker\bin\Debug\net6.0\RiderMaker.deps.json
+C:\Users\TyraCato\desktop\wos-csharp\RiderMaker\bin\Debug\net6.0\RiderMaker.runtimeconfig.json
+C:\Users\TyraCato\desktop\wos-csharp\RiderMaker\bin\Debug\net6.0\RiderMaker.dll
+C:\Users\TyraCato\desktop\wos-csharp\RiderMaker\bin\Debug\net6.0\RiderMaker.pdb
+C:\Users\TyraCato\desktop\wos-csharp\RiderMaker\obj\Debug\net6.0\RiderMaker.csproj.AssemblyReference.cache
+C:\Users\TyraCato\desktop\wos-csharp\RiderMaker\obj\Debug\net6.0\RiderMaker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TyraCato\desktop\wos-csharp\RiderMaker\obj\Debug\net6.0\RiderMaker.AssemblyInfoInputs.cache
+C:\Users\TyraCato\desktop\wos-csharp\RiderMaker\obj\Debug\net6.0\RiderMaker.AssemblyInfo.cs
+C:\Users\TyraCato\desktop\wos-csharp\RiderMaker\obj\Debug\net6.0\RiderMaker.csproj.CoreCompileInputs.cache
+C:\Users\TyraCato\desktop\wos-csharp\RiderMaker\obj\Debug\net6.0\RiderMaker.dll
+C:\Users\TyraCato\desktop\wos-csharp\RiderMaker\obj\Debug\net6.0\refint\RiderMaker.dll
+C:\Users\TyraCato\desktop\wos-csharp\RiderMaker\obj\Debug\net6.0\RiderMaker.pdb
+C:\Users\TyraCato\desktop\wos-csharp\RiderMaker\obj\Debug\net6.0\RiderMaker.genruntimeconfig.cache
+C:\Users\TyraCato\desktop\wos-csharp\RiderMaker\obj\Debug\net6.0\ref\RiderMaker.dll
