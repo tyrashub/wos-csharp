@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razor Fun</title>
+</head>
+
+<body>
+    <h1> Here are some delicious foods!</h1>
+
+    @{
+
+         List<string> StringList = new List<string>() { "Crepes", "Apple Pie", "Pizza", "Cinnamon Rolls", "Lasagna", "Donuts",
+    "Chocolate Cake", "Burritos"};
+
+    foreach (string word in StringList)
+    {
+        if (word[0] == 'C') {
+             <p style="color: red;"> @word </p>
+        } else {
+          <p> @word </p>  
+        }
+    }
+    }
+</body>
+
+</html>
