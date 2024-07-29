@@ -1,42 +1,54 @@
 ﻿using RiderMaker.Classes;
+using RiderMaker.Interfaces;
 
 // some vehicles
-Vehicle car = new("Honda CR-V", 4, "Red", true);
-Vehicle car2 = new("Toyota Camry", 2, "Silver", true);
-Vehicle car3 = new("Mercedes Benz", 1, "White", true);
-Vehicle bike = new("Canyon Torque", 1, "Black and Green", false);
-Vehicle skates = new("Impala Lightspeed", 1, "White and Tan", false);
+Car honda = new Car("Honda CR-V", 4, "Red", true, 125, "Unleaded Gasoline");
+Car toyota = new Car("Toyota Camry", 2, "Silver", true, 150, "Premium Gasoline");
+Car benz = new Car("Mercedes Benz", 1, "White", true, 150, "Premium Gasoline");
+Bike canyon = new Bike("Canyon Torque", 1, "Black and Green", false, 60);
+Horse stallion = new Horse("Male Stallion", 1, "Black", false, 25, "Grains");
+// Skates Impala = new("Impala Lightspeed", 1, "White and Tan", false);
 
 // initialize vehicle list
-List<Vehicle> vehicles = new() { car, car2, car3, bike, skates };
+List<Vehicle> vehicles = new() { honda, toyota, benz, canyon, stallion };
+List<INeedFuel> NeedsFuel = new List<INeedFuel>();
 
 // foreach loop for vehicles
-foreach (Vehicle item in vehicles)
+foreach (Vehicle v in vehicles)
 {
-    item.ShowInfo();
+    if (v is INeedFuel)
+    {
+        NeedsFuel.Add((INeedFuel)v);
+    }
+}
+
+foreach (INeedFuel item in NeedsFuel)
+{
+    item.GiveFuel(10);
 }
 
 // travel 100 miles
-car.Travel(100);
-car2.Travel(46);
-car2.Travel(4);
-car3.Travel(13);
-bike.Travel(3);
-skates.Travel(10);
+honda.Travel(100);
+toyota.Travel(46);
+benz.Travel(4);
+benz.Travel(13);
+canyon.Travel(3);
+stallion.Travel(15);
+// skates.Travel(10);
 
 // updated vehicle info 
-car.ShowInfo();
-car2.ShowInfo();
-car3.ShowInfo();
-bike.ShowInfo();
-skates.ShowInfo();
+honda.ShowInfo();
+toyota.ShowInfo();
+benz.ShowInfo();
+canyon.ShowInfo();
+// skates.ShowInfo();
 
 // bonus ?
-car.DistanceTraveled = 350;
-bike.DistanceTraveled = 35;
-skates.DistanceTraveled = 5;
+honda.DistanceTraveled = 350;
+canyon.DistanceTraveled = 35;
+// skates.DistanceTraveled = 5;
 
 // updated vehicle info
-car.ShowInfo();
-skates.ShowInfo();
-bike.ShowInfo();
+honda.ShowInfo();
+// skates.ShowInfo();
+canyon.ShowInfo();
