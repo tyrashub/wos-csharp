@@ -1,21 +1,23 @@
 namespace RiderMaker.Classes;
 
-public class Vehicle
+public abstract class Vehicle
 {
     // Fields
-    private string Name;
-    private int NumberOfPassengers;
-    private string Color;
-    private bool HasEngine;
+    public string Name;
+    public int NumberOfPassengers;
+    public string Color;
+    public bool HasEngine;
+    public int TopSpeed;
     public int DistanceTraveled;
 
     // Constructor
-    public Vehicle(string name, int numberOfPassengers, string color, bool hasEngine)
+    public Vehicle(string name, int numberOfPassengers, string color, bool hasEngine, int topSpeed)
     {
         Name = name;
         NumberOfPassengers = numberOfPassengers;
         Color = color;
         HasEngine = hasEngine;
+        TopSpeed = topSpeed;
         DistanceTraveled = 0;
     }
 
@@ -28,6 +30,7 @@ public class Vehicle
         Console.WriteLine($"Number of Passengers: {NumberOfPassengers}");
         Console.WriteLine($"Color: {Color}");
         Console.WriteLine($"Has Engine: {HasEngine}");
+        Console.WriteLine($"Top Speed: {TopSpeed} mph");
         Console.WriteLine($"Distance Traveled: {DistanceTraveled} miles");
         Console.WriteLine();
     }
@@ -40,6 +43,7 @@ public class Vehicle
         NumberOfPassengers = numberOfPassengers;
         HasEngine = true;
         DistanceTraveled = 0;
+        TopSpeed = 120;
     }
 
     //  distance traveled
