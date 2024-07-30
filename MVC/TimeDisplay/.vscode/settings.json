@@ -1,0 +1,8 @@
+{
+    "breadcrumbs.filePath": "on",
+    "breadcrumbs.enabled": true,
+    "breadcrumbs.symbolPath": "on",
+    "breadcrumbs.symbolSortOrder": "position",
+    "explorer.expandSingleFolderWorkspaces": true,
+    "explorer.fileNesting.expand": true
+}

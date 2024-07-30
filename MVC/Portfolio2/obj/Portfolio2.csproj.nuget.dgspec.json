@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\Portfolio2\\Portfolio2.csproj": {}
+    "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\Portfolio2\\Portfolio2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\Portfolio2\\Portfolio2.csproj": {
+    "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\Portfolio2\\Portfolio2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\Portfolio2\\Portfolio2.csproj",
+        "projectUniqueName": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\Portfolio2\\Portfolio2.csproj",
         "projectName": "Portfolio2",
-        "projectPath": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\Portfolio2\\Portfolio2.csproj",
+        "projectPath": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\Portfolio2\\Portfolio2.csproj",
         "packagesPath": "C:\\Users\\TyraCato\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\Portfolio2\\obj\\",
+        "outputPath": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\Portfolio2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TyraCato\\AppData\\Roaming\\NuGet\\NuGet.Config"
