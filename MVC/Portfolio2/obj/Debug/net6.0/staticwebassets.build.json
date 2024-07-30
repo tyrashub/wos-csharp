@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RC4Qfa8sNHBKupY+wI0Gag4yBu/jPrGYsAPCIkJ8ZH8=",
+  "Hash": "bu8p4yiz83Uo+bqPy/BAYqhA9KQY3bsCqBUivJQB5jo=",
   "Source": "Portfolio2",
   "BasePath": "_content/Portfolio2",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\dogfest.png"
+    },
+    {
+      "Identity": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\Portfolio2\\wwwroot\\images\\myprojectspage.png",
+      "SourceId": "Portfolio2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\Portfolio2\\wwwroot\\",
+      "BasePath": "_content/Portfolio2",
+      "RelativePath": "images/myprojectspage.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\myprojectspage.png"
     },
     {
       "Identity": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\Portfolio2\\wwwroot\\images\\Services1.jpg",
