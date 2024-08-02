@@ -1,0 +1,31 @@
+@model Ninja;
+
+@{
+    ViewData["Title"] = "Results";
+}
+
+@* RESULTS CARD *@
+<div class="card bg-body-secondary" style="width: 28rem;">
+    <img src="~/images/group.jpg" class="card-img-top img-fluid" alt="Survey Completion IMG">
+    <div class="card-body">
+        <strong>
+          <h5 class="card-title mb-4">Submission successful!</h5>
+        </strong>
+        <p class="card-text mb-2">Thank you for joining the dojo! Here is what you entered: </p>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item ">Your Name:</li>
+        <li class="list-group-item fst-italic">@Model.Name</li>
+        <li class="list-group-item">Your Dojo Location:</li>
+        <li class="list-group-item fst-italic">@Model.Dojo</li>
+        <li class="list-group-item">Your Favorite Language:</li>
+        <li class="list-group-item fst-italic">@Model.FavLang</li>
+        <li class="list-group-item">Comment (optional):</li>
+        <li class="list-group-item fst-italic">@Model.Message</li>
+    </ul>
+
+    @* RETURN HOME CARD *@
+    <div class="card-body">
+        <button class="btn btn-primary"><a href="/" class="card-link text-white text-decoration-none">Go Back</a></button>
+    </div>
+</div>

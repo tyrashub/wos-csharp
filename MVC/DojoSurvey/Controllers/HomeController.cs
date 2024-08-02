@@ -14,20 +14,26 @@ public class HomeController : Controller
         _logger = logger;
     }
 
+    [HttpGet("")]
     public IActionResult Index()
     {
 
-        return View();
+        return View("Index");
     }
-    [HttpPost("Result")]
-    public IActionResult Result(string Name, string Dojo, string FavLang, string Message)
-    {
-        ViewBag.Name = Name;
-        ViewBag.Dojo = Dojo;
-        ViewBag.FavLang = FavLang;
-        ViewBag.Message = Message;
 
-        return View();
+    [HttpPost("results")]
+    public ViewResult Results(Ninja ninja)
+    {
+        if (!ModelState.IsValid)
+        {
+            // the form is invalid
+            _logger.LogInformation("The form is invalid.");
+            return View("Index");
+        }
+
+        // the form is valid
+        _logger.LogInformation("The form is valid");
+        return View("Results", ninja);
     }
 
 

@@ -1,33 +1,53 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model Ninja;
+
+@{
+  ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
-    <h1 class="display-4 mb-3">Register for our site!</h1>
-    <form action="/Result" method="post">
-        <div class="mb-3">
-          <label for="FormControlInput" class="form-label" name="Name"></label>
-          <input type="name" class="form-control" id="FormControlInput" placeholder="Name"  name="Name">
-        </div>
-        <select class="form-select mb-3" aria-label="select" name="Dojo">
-          <option selected>Dojo Location</option>
-          <option value="San Jose">San Jose</option>
-          <option value="Dallas">Dallas</option>
-           <option value="Seattle">Seattle</option>
-          <option value="New York">New York</option>
-        </select>
-        <select class="form-select mb-3" aria-label="select" name="FavLang">
-          <option selected>Favorite Language</option>
-          <option value="C#">C#</option>
-          <option value="Java">Java</option>
-          <option value="JavaScript">JavaScript</option>
-          <option value="Python">Python</option>
-        </select>
-        <div class="mb-3 text-start">
-          <label for="FormControlTextarea" class="form-label">Comment (optional)</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="Message"></textarea>
-          <input class="btn btn-primary mt-3" type="submit" value="Submit">
-          </div>
-        </form>
+  <h1 class="display-4 mb-3">Register for the dojo!🖥️</h1>
+  <form asp-action="Results" asp-controller="Home" method="post">
+
+@* NAME BOX *@
+    <div class="mb-3">
+      <input type="text" class="form-control" id="Name" placeholder="Name" asp-for="Name">
+      <span class="form-text text-warning" asp-validation-for="Name"></span>
     </div>
 
+@* SELECT DOJO BOX *@
+    <div class="mb-3">
+      <select asp-for="Dojo" class="form-select">
+        <option value="" disabled selected>Select Dojo Location</option>
+        <option value="San Jose">San Jose</option>
+        <option value="Dallas">Dallas</option>
+        <option value="Seattle">Seattle</option>
+        <option value="New York">New York</option>
+      </select>
+      <span class="form-text text-warning" asp-validation-for="Dojo"></span>
+    </div>
+
+@* SELECT FAVORITE LANGUAGE BOX *@
+    <div class="mb-3">
+      <select asp-for="FavLang" class="form-select">
+        <option value="" disabled selected>Select Favorite Language</option>
+        <option value="C#">C#</option>
+        <option value="Java">Java</option>
+        <option value="JavaScript">JavaScript</option>
+        <option value="Python">Python</option>
+      </select>
+      <span class="form-text text-warning" asp-validation-for="FavLang"></span>
+    </div>
+
+@* COMMENTS BOX *@
+    <div class="mb-3 text-start">
+      <label for="Message" class="form-label">Comments (optional):</label>
+      <textarea class="form-control" id="Message" rows="3" name="Message"></textarea>
+    </div>
+
+@* SUBMIT BUTTON *@
+    <div class="text-end">
+      <input class="btn btn-primary" type="submit" value="Submit">
+    </div>
+
+  </form>
+</div>
