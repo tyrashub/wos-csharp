@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7P/kTEhelrGdQU5NQeWqe8t5HSO7niMnIedOzemPfe0=",
+  "Hash": "R4Bg9M746RT1eEbdzIaFrUervqAFYIIJMOhHs4kD6mU=",
   "Source": "DojoSurvey",
   "BasePath": "_content/DojoSurvey",
   "Mode": "Default",
@@ -85,12 +85,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\DojoSurvey\\wwwroot\\images\\completion.jpg",
+      "Identity": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\DojoSurvey\\wwwroot\\images\\comment-optional.png",
       "SourceId": "DojoSurvey",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\DojoSurvey\\wwwroot\\",
       "BasePath": "_content/DojoSurvey",
-      "RelativePath": "images/completion.jpg",
+      "RelativePath": "images/comment-optional.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -99,7 +99,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\completion.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\comment-optional.png"
     },
     {
       "Identity": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\DojoSurvey\\wwwroot\\images\\group.jpg",
@@ -119,6 +119,23 @@
       "OriginalItemSpec": "wwwroot\\images\\group.jpg"
     },
     {
+      "Identity": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\DojoSurvey\\wwwroot\\images\\home-page-after-validation.png",
+      "SourceId": "DojoSurvey",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\DojoSurvey\\wwwroot\\",
+      "BasePath": "_content/DojoSurvey",
+      "RelativePath": "images/home-page-after-validation.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\home-page-after-validation.png"
+    },
+    {
       "Identity": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\DojoSurvey\\wwwroot\\images\\homepage.png",
       "SourceId": "DojoSurvey",
       "SourceType": "Discovered",
@@ -134,6 +151,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\homepage.png"
+    },
+    {
+      "Identity": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\DojoSurvey\\wwwroot\\images\\result-page-after-validation.png",
+      "SourceId": "DojoSurvey",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\DojoSurvey\\wwwroot\\",
+      "BasePath": "_content/DojoSurvey",
+      "RelativePath": "images/result-page-after-validation.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\result-page-after-validation.png"
     },
     {
       "Identity": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\DojoSurvey\\wwwroot\\images\\resultpage.png",
