@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\Redirecting\\Redirecting.csproj": {}
+    "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\Redirecting\\Redirecting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\Redirecting\\Redirecting.csproj": {
+    "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\Redirecting\\Redirecting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\Redirecting\\Redirecting.csproj",
+        "projectUniqueName": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\Redirecting\\Redirecting.csproj",
         "projectName": "Redirecting",
-        "projectPath": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\Redirecting\\Redirecting.csproj",
+        "projectPath": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\Redirecting\\Redirecting.csproj",
         "packagesPath": "C:\\Users\\TyraCato\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\Redirecting\\obj\\",
+        "outputPath": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\Redirecting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TyraCato\\AppData\\Roaming\\NuGet\\NuGet.Config"

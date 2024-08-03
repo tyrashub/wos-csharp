@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MoviesLINQ\\MoviesLINQ.csproj": {}
+    "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\MoviesLINQ\\MoviesLINQ.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MoviesLINQ\\MoviesLINQ.csproj": {
+    "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\MoviesLINQ\\MoviesLINQ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MoviesLINQ\\MoviesLINQ.csproj",
+        "projectUniqueName": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\MoviesLINQ\\MoviesLINQ.csproj",
         "projectName": "MoviesLINQ",
-        "projectPath": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MoviesLINQ\\MoviesLINQ.csproj",
+        "projectPath": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\MoviesLINQ\\MoviesLINQ.csproj",
         "packagesPath": "C:\\Users\\TyraCato\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MoviesLINQ\\obj\\",
+        "outputPath": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\MoviesLINQ\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TyraCato\\AppData\\Roaming\\NuGet\\NuGet.Config"

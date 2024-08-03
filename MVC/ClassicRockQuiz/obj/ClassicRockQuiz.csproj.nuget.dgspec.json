@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\ClassicRockQuiz\\ClassicRockQuiz.csproj": {}
+    "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\ClassicRockQuiz\\ClassicRockQuiz.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\ClassicRockQuiz\\ClassicRockQuiz.csproj": {
+    "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\ClassicRockQuiz\\ClassicRockQuiz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\ClassicRockQuiz\\ClassicRockQuiz.csproj",
+        "projectUniqueName": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\ClassicRockQuiz\\ClassicRockQuiz.csproj",
         "projectName": "ClassicRockQuiz",
-        "projectPath": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\ClassicRockQuiz\\ClassicRockQuiz.csproj",
+        "projectPath": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\ClassicRockQuiz\\ClassicRockQuiz.csproj",
         "packagesPath": "C:\\Users\\TyraCato\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\ClassicRockQuiz\\obj\\",
+        "outputPath": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\ClassicRockQuiz\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TyraCato\\AppData\\Roaming\\NuGet\\NuGet.Config"

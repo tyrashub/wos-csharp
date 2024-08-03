@@ -13,9 +13,25 @@ public class HomeController : Controller
         _logger = logger;
     }
 
+    [HttpGet("")]
     public IActionResult Index()
     {
-        return View();
+        return View("Index");
+    }
+
+    [HttpPost("results")]
+    public ViewResult Results(Knight knight)
+    {
+        if (!ModelState.IsValid)
+        {
+            // the form is invalid
+            _logger.LogInformation("The form is invalid.");
+            return View("Index");
+        }
+
+        // the form is valid
+        _logger.LogInformation("The form is valid");
+        return View("Results", knight);
     }
 
     public IActionResult Privacy()

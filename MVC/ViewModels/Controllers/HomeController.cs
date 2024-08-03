@@ -13,9 +13,33 @@ public class HomeController : Controller
         _logger = logger;
     }
 
+    [HttpGet("")]
     public IActionResult Index()
     {
-        return View();
+        var message = new Message()
+        {
+            Content = "This message is coming from the controller."
+        };
+        return View("Index", message);
+    }
+
+    [HttpGet("about")]
+    public ViewResult About()
+    {
+        var subtitle = "This is the About Us page.";
+        return View("About", subtitle);
+    }
+
+    [HttpGet("projects")]
+    public ViewResult Projects()
+    {
+        var projects = new List<string>()
+        {
+            "Project 1",
+            "Project 2",
+            "Project 3"
+        };
+        return View("Projects", projects);
     }
 
     public IActionResult Privacy()

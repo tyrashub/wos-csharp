@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "vbPcszP53Fo8AB/ZKjZ2wQEELb9O8pThUq9CHwPcmxs=",
+  "Source": "FirstRazor",
+  "BasePath": "_content/FirstRazor",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FirstRazor\\wwwroot",
+      "Source": "FirstRazor",
+      "ContentRoot": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\FirstRazor\\wwwroot\\",
+      "BasePath": "_content/FirstRazor",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\FirstRazor\\wwwroot\\css\\style.css",
+      "SourceId": "FirstRazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\FirstRazor\\wwwroot\\",
+      "BasePath": "_content/FirstRazor",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    }
+  ]
+}

@@ -13,9 +13,27 @@ public class HomeController : Controller
         _logger = logger;
     }
 
+    [HttpGet("")]
     public IActionResult Index()
     {
-        return View();
+        return View("Index");
+    }
+
+    [HttpPost("process-password")]
+    public IActionResult ProcessPassword(Password password)
+    {
+        if (!ModelState.IsValid)
+        {
+            return View("Index");
+        }
+
+        return RedirectToAction("InnerLair");
+    }
+
+    [HttpGet("inner-lair")]
+    public ViewResult InnerLair()
+    {
+        return View("InnerLair");
     }
 
     public IActionResult Privacy()

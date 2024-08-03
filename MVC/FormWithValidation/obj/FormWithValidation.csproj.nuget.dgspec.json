@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\FormWithValidation\\FormWithValidation.csproj": {}
+    "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\FormWithValidation\\FormWithValidation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\FormWithValidation\\FormWithValidation.csproj": {
+    "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\FormWithValidation\\FormWithValidation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\FormWithValidation\\FormWithValidation.csproj",
+        "projectUniqueName": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\FormWithValidation\\FormWithValidation.csproj",
         "projectName": "FormWithValidation",
-        "projectPath": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\FormWithValidation\\FormWithValidation.csproj",
+        "projectPath": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\FormWithValidation\\FormWithValidation.csproj",
         "packagesPath": "C:\\Users\\TyraCato\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\FormWithValidation\\obj\\",
+        "outputPath": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\FormWithValidation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TyraCato\\AppData\\Roaming\\NuGet\\NuGet.Config"

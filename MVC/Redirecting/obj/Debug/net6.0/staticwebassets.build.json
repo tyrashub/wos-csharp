@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "Lgcu7TbaNR5kB4gGl+yCycRN2Oho9+NA7JT8xZh9ZpA=",
+  "Source": "Redirecting",
+  "BasePath": "_content/Redirecting",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Redirecting\\wwwroot",
+      "Source": "Redirecting",
+      "ContentRoot": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\Redirecting\\wwwroot\\",
+      "BasePath": "_content/Redirecting",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\Redirecting\\wwwroot\\css\\pico.pink.min.css",
+      "SourceId": "Redirecting",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\Redirecting\\wwwroot\\",
+      "BasePath": "_content/Redirecting",
+      "RelativePath": "css/pico.pink.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\pico.pink.min.css"
+    }
+  ]
+}

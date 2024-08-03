@@ -13,9 +13,16 @@ public class HomeController : Controller
         _logger = logger;
     }
 
+    [HttpGet("")]
     public IActionResult Index()
     {
-        return View();
+        return View("Index");
+    }
+
+    [HttpPost("results")]
+    public ViewResult Results(Knight knight)
+    {
+        return View("Results", knight);
     }
 
     public IActionResult Privacy()

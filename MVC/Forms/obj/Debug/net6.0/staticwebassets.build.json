@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "b39yJQ2A0s5Ut2TUQslpT04DKyZ2Ob+dq3UaRM+j6hc=",
+  "Source": "Forms",
+  "BasePath": "_content/Forms",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Forms\\wwwroot",
+      "Source": "Forms",
+      "ContentRoot": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\Forms\\wwwroot\\",
+      "BasePath": "_content/Forms",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\Forms\\wwwroot\\css\\pico.yellow.min.css",
+      "SourceId": "Forms",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\Forms\\wwwroot\\",
+      "BasePath": "_content/Forms",
+      "RelativePath": "css/pico.yellow.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\pico.yellow.min.css"
+    }
+  ]
+}
