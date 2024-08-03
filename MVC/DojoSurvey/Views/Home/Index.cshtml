@@ -8,14 +8,14 @@
   <h1 class="display-4 mb-3">Register for the dojo!🖥️</h1>
   <form asp-action="Results" asp-controller="Home" method="post">
 
-@* NAME BOX *@
-    <div class="mb-3">
+    @* NAME BOX *@
+    <div class="mb-3 text-start">
       <input type="text" class="form-control" id="Name" placeholder="Name" asp-for="Name">
-      <span class="form-text text-warning" asp-validation-for="Name"></span>
+      <span class="form-text text-info" asp-validation-for="Name"></span>
     </div>
 
-@* SELECT DOJO BOX *@
-    <div class="mb-3">
+    @* SELECT DOJO BOX *@
+    <div class="mb-3 text-start">
       <select asp-for="Dojo" class="form-select">
         <option value="" disabled selected>Select Dojo Location</option>
         <option value="San Jose">San Jose</option>
@@ -23,11 +23,11 @@
         <option value="Seattle">Seattle</option>
         <option value="New York">New York</option>
       </select>
-      <span class="form-text text-warning" asp-validation-for="Dojo"></span>
+      <span class="form-text text-info" asp-validation-for="Dojo"></span>
     </div>
 
-@* SELECT FAVORITE LANGUAGE BOX *@
-    <div class="mb-3">
+    @* SELECT FAVORITE LANGUAGE BOX *@
+    <div class="mb-3 text-start">
       <select asp-for="FavLang" class="form-select">
         <option value="" disabled selected>Select Favorite Language</option>
         <option value="C#">C#</option>
@@ -35,19 +35,26 @@
         <option value="JavaScript">JavaScript</option>
         <option value="Python">Python</option>
       </select>
-      <span class="form-text text-warning" asp-validation-for="FavLang"></span>
+      <span class="form-text text-info" asp-validation-for="FavLang"></span>
     </div>
 
-@* COMMENTS BOX *@
+    @* SELECT START DATE BOX *@
+    <div class="mb-3 text-start">
+      <label asp-for="FutureDate" class="form-label">When did you hear about us?</label>
+      <input asp-for="FutureDate" type="date" class="form-control" />
+      <small><span class="text-info" asp-validation-for="FutureDate"></span></small>
+    </div>
+
+    @* COMMENTS BOX *@
     <div class="mb-3 text-start">
       <label for="Message" class="form-label">Comments (optional):</label>
       <textarea class="form-control" id="Message" rows="3" name="Message"></textarea>
     </div>
 
-@* SUBMIT BUTTON *@
+    @* SUBMIT BUTTON *@
     <div class="text-end">
       <input class="btn btn-primary" type="submit" value="Submit">
     </div>
 
-  </form>
+</form>
 </div>

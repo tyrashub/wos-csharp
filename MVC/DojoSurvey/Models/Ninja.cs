@@ -1,5 +1,6 @@
 #pragma warning disable CS8618
 using System.ComponentModel.DataAnnotations;
+using DojoSurvey.Controllers;
 
 namespace DojoSurvey.Models;
 
@@ -19,4 +20,9 @@ public class Ninja
     public string FavLang { get; set; }
 
     public string? Message { get; set; }
+
+    [DataType(DataType.Date)]
+    [Required(ErrorMessage = "Please enter a valid date.")]
+    [FutureDate]
+    public DateTime? FutureDate { get; set; }
 }
