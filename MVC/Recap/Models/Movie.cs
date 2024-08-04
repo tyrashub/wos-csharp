@@ -31,4 +31,6 @@ public class Movie
     [Required(ErrorMessage = "Please enter duration.")]
     [Range(1, 1000, ErrorMessage = "Duration out of range.")]
     public int? DurationInMinutes { get; set; }
+
+    public string ImagePath { get; set; }
 }

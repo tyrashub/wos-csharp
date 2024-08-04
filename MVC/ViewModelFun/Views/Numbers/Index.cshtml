@@ -1,0 +1,17 @@
+@model ViewModel;
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Numbers Page</title>
+</head>
+<body>
+    <h1>Here are some numbers!</h1>
+    <ul>
+        @foreach (var number in Model.Numbers)
+        {
+            <li>@number</li>
+        }
+    </ul>
+</body>
+</html>
