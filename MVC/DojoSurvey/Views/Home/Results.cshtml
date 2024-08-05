@@ -21,7 +21,7 @@
         <li class="list-group-item">Your Favorite Language:</li>
         <li class="list-group-item fst-italic">@Model.FavLang</li>
          <li class="list-group-item">When you heard about us:</li>
-        <li class="list-group-item fst-italic">@Model.FutureDate</li>
+        <li class="list-group-item fst-italic">@Model.FutureDate?.ToString("MMMM d, yyyy")</li>
         <li class="list-group-item">Comment (optional):</li>
         <li class="list-group-item fst-italic">@Model.Message</li>
     </ul>
