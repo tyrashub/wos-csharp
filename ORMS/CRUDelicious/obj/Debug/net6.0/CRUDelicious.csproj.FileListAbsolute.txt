@@ -1,0 +1,8 @@
+c:\Users\TyraCato\Desktop\wos-csharp\ORMS\CRUDelicious\obj\Debug\net6.0\CRUDelicious.csproj.AssemblyReference.cache
+c:\Users\TyraCato\Desktop\wos-csharp\ORMS\CRUDelicious\obj\Debug\net6.0\CRUDelicious.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\TyraCato\Desktop\wos-csharp\ORMS\CRUDelicious\obj\Debug\net6.0\CRUDelicious.AssemblyInfoInputs.cache
+c:\Users\TyraCato\Desktop\wos-csharp\ORMS\CRUDelicious\obj\Debug\net6.0\CRUDelicious.AssemblyInfo.cs
+c:\Users\TyraCato\Desktop\wos-csharp\ORMS\CRUDelicious\obj\Debug\net6.0\CRUDelicious.csproj.CoreCompileInputs.cache
+c:\Users\TyraCato\Desktop\wos-csharp\ORMS\CRUDelicious\obj\Debug\net6.0\CRUDelicious.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\TyraCato\Desktop\wos-csharp\ORMS\CRUDelicious\obj\Debug\net6.0\CRUDelicious.RazorAssemblyInfo.cache
+c:\Users\TyraCato\Desktop\wos-csharp\ORMS\CRUDelicious\obj\Debug\net6.0\CRUDelicious.RazorAssemblyInfo.cs

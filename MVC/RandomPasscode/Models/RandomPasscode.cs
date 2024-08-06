@@ -1,4 +1,3 @@
-
 using System.Text;
 
 namespace RandomPasscode.Models
@@ -24,7 +23,7 @@ namespace RandomPasscode.Models
         private static string NewPasscode(int length)
         {
             const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-            var passcode = new StringBuilder();
+            var passcode = new System.Text.StringBuilder();
             for (int i = 0; i < length; i++)
             {
                 passcode.Append(chars[_random.Next(chars.Length)]);

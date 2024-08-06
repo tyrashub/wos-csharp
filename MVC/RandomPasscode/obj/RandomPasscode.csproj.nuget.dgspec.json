@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\RandomPasscode\\RandomPasscode.csproj": {}
+    "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\RandomPasscode\\RandomPasscode.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\RandomPasscode\\RandomPasscode.csproj": {
+    "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\RandomPasscode\\RandomPasscode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\RandomPasscode\\RandomPasscode.csproj",
+        "projectUniqueName": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\RandomPasscode\\RandomPasscode.csproj",
         "projectName": "RandomPasscode",
-        "projectPath": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\RandomPasscode\\RandomPasscode.csproj",
+        "projectPath": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\RandomPasscode\\RandomPasscode.csproj",
         "packagesPath": "C:\\Users\\TyraCato\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\RandomPasscode\\obj\\",
+        "outputPath": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\RandomPasscode\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TyraCato\\AppData\\Roaming\\NuGet\\NuGet.Config"

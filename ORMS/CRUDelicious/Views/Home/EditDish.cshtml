@@ -1,0 +1,59 @@
+@model Dishes;
+
+@{
+    var dishes = Model;
+    ViewData["Title"] = "Edit Dish Page";
+}
+
+<body>
+    <div class="container">
+        <h1 class="mb-2 text-center">Edit @dishes.Name</h1>
+
+        <nav class="text-center mb-3">
+        <a href="/" class="text-white text-decoration-none">Home</a> |
+        <a href="/dishes/new" class="text-white text-decoration-none">Add a Dish</a>
+    </nav>
+
+        <form asp-action="UpdateDish" asp-controller="Home" asp-route-dishesId="@dishes.DishesId" method="post">
+            <input type="hidden" name="dishId" value="@dishes.DishesId" />
+
+            <div class="form-group mb-3">
+                <label for="Chef" asp-for="Chef">Chef's Name</label>
+                <input type="text" class="form-control" asp-for="Chef" id="Chef" name="Chef" value="@dishes.Chef" />
+                <span class="form-text text-warning" asp-validation-for="Chef"></span>
+            </div>
+
+            <div class="mb-3">
+                <label for="Tastiness" asp-for="Tastiness">Tastiness</label>
+                <select id="Tastiness" class="form-select" asp-for="Tastiness" name="Tastiness" value="@dishes.Tastiness">
+                    <option value="1" selected="@(dishes.Tastiness == 1)">1</option>
+                    <option value="2" selected="@(dishes.Tastiness == 2)">2</option>
+                    <option value="3" selected="@(dishes.Tastiness == 3)">3</option>
+                    <option value="4" selected="@(dishes.Tastiness == 4)">4</option>
+                    <option value="5" selected="@(dishes.Tastiness == 5)">5</option>
+                </select>
+                <span class="form-text text-warning" asp-validation-for="Tastiness"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="Name" asp-for="Name">Name of Dish</label>
+                <input type="text" class="form-control mb-3" asp-for="Name" id="Name" name="Name" value="@dishes.Name" />
+                  <span class="form-text text-warning" asp-validation-for="Name"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="Calories" asp-for="Calories"># of Calories</label>
+                <input type="number" class="form-control mb-3" asp-for="Calories" id="Calories" name="Calories" value="@dishes.Calories" />
+                  <span class="form-text text-warning" asp-validation-for="Calories"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="Description" asp-for="Description">Description</label>
+                <textarea id="Description" name="Description" class="form-control mb-3"  style="width: 100%; height: 250px;" asp-for="Description">@dishes.Description</textarea>
+                 <span class="form-text text-warning" asp-validation-for="Description"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Update Dish</button>
+        </form>
+    </div>
+</body>

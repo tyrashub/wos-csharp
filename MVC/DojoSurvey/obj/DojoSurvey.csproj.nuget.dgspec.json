@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\DojoSurvey\\DojoSurvey.csproj": {}
+    "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\DojoSurvey\\DojoSurvey.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\DojoSurvey\\DojoSurvey.csproj": {
+    "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\DojoSurvey\\DojoSurvey.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\DojoSurvey\\DojoSurvey.csproj",
+        "projectUniqueName": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\DojoSurvey\\DojoSurvey.csproj",
         "projectName": "DojoSurvey",
-        "projectPath": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\DojoSurvey\\DojoSurvey.csproj",
+        "projectPath": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\DojoSurvey\\DojoSurvey.csproj",
         "packagesPath": "C:\\Users\\TyraCato\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\DojoSurvey\\obj\\",
+        "outputPath": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\DojoSurvey\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TyraCato\\AppData\\Roaming\\NuGet\\NuGet.Config"

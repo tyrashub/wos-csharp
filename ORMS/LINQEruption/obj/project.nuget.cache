@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bSXdqMJnLKbZQBup1WydLw58Lv9tE8GkGMyPwZAf+8xTR+pQOV0q0m15hQxeUFxCdRTP1HKAmJErhHORBRQODQ==",
+  "dgSpecHash": "WDkPTmQe+q4cFIuIS2mW3tvvvvGuN0fgHyE7MEsa2dHBsj34tRrOP0XfTueN5hrk4K9HZyx+iWKOK1oJququ2Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\LINQEruption\\LINQEruption.csproj",
+  "projectFilePath": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\LINQEruption\\LINQEruption.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

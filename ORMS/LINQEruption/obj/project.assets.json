@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\LINQEruption\\LINQEruption.csproj",
+      "projectUniqueName": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\LINQEruption\\LINQEruption.csproj",
       "projectName": "LINQEruption",
-      "projectPath": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\LINQEruption\\LINQEruption.csproj",
+      "projectPath": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\LINQEruption\\LINQEruption.csproj",
       "packagesPath": "C:\\Users\\TyraCato\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\LINQEruption\\obj\\",
+      "outputPath": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\LINQEruption\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\TyraCato\\AppData\\Roaming\\NuGet\\NuGet.Config"
