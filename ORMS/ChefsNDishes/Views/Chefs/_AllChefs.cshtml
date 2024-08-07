@@ -1,0 +1,34 @@
+@model List<Chef>
+
+@{
+    var chefs = Model;
+}
+
+<div class="card shadow">
+    <div class="card-body">
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>Full Name</th>
+                    <th># of Dishes</th>
+                    <th>Birthday</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var chef in chefs)
+                {
+                    <tr>
+                        <td class="align-middle">@chef.FullName</td>
+                        <td class="align-middle">@chef.Dishes.Count</td>
+                        <td class="align-middle">
+                            @if (chef.DateOfBirth.HasValue)
+                            {
+                                @chef.DateOfBirth.Value.ToString("MMMM dd, yyyy")
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,51 @@
+@model Dishes;
+
+@{
+    var chefs = ViewBag.chefs;
+}
+
+<div class="card shadow">
+    <div class="card-body">
+        <form asp-action="CreateDish" asp-controller="Dishes" method="post">
+            <div class="form-floating mb-3">
+                <select asp-for="ChefId" class="form-select">
+                    <option value="" selected hidden disabled>Select Chef</option>
+                    @foreach (var chef in chefs)
+                    {
+                        <option value="@chef.ChefId">@chef.FullName</option>
+                    }
+                </select>
+                <label asp-for="ChefId">Select Chef</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input class="form-control" asp-for="Name" placeholder="Name">
+                <label asp-for="Name"></label>
+                <span class="form-text text-warning" asp-validation-for="Name"></span>
+            </div>
+            <div class="col">
+                <div class="form-floating mb-3">
+                    <input class="form-control" asp-for="Tastiness" placeholder="Tastiness" type="number" step=".1">
+                    <label asp-for="Tastiness"></label>
+                    <span class="form-text text-warning" asp-validation-for="Tastiness"></span>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <div class="col">
+                        <div class="form-floating">
+                            <input class="form-control" asp-for="Calories" placeholder="Calories" type="number"
+                                step=".1">
+                            <label asp-for="Calories"></label>
+                            <span class="form-text text-warning" asp-validation-for="Calories"></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="text-end">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>

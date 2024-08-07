@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\LoginReg\\LoginReg.csproj": {}
+    "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\LoginReg\\LoginReg.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\LoginReg\\LoginReg.csproj": {
+    "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\LoginReg\\LoginReg.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\LoginReg\\LoginReg.csproj",
+        "projectUniqueName": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\LoginReg\\LoginReg.csproj",
         "projectName": "LoginReg",
-        "projectPath": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\LoginReg\\LoginReg.csproj",
+        "projectPath": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\LoginReg\\LoginReg.csproj",
         "packagesPath": "C:\\Users\\TyraCato\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\LoginReg\\obj\\",
+        "outputPath": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\LoginReg\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TyraCato\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -32,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -56,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.424\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }

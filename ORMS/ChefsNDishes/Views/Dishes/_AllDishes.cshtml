@@ -1,0 +1,36 @@
+@model List<Dishes>
+
+@{
+    var dishes = Model;
+}
+
+<div class="card shadow">
+    <div class="card-body">
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Chef</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var dish in dishes)
+                {
+                    <tr>
+                        <td class="align-middle">@dish.Name</td>
+                        <td class="align-middle">
+                            @if (dish.Chef is not null)
+                            {
+                                @dish.Chef.FullName
+                            }
+                        </td>
+                        <td>
+                            <a href="/dishes/@dish.DishesId" class="btn btn-sm btn-primary">View</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

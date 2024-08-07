@@ -1,0 +1,21 @@
+@model DishesPageViewModel;
+
+@{
+    var dish = Model.Dish;
+    var dishes = Model.Dishes;
+    ViewData["Title"] = "Dishes Page";
+}
+
+<section>
+    <h1 class="display-4 mb-3 text-center">Yum! Check out our tasty dishes!</h1>
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <h2 class="display-6 mb-3 text-center">All Dishes</h2>
+            @await Html.PartialAsync("_AllDishes", dishes)
+        </div>
+        <div class="col-12 col-md-6">
+            <h2 class="display-6 mb-3 text-center">Add a Dish</h2>
+            @await Html.PartialAsync("_AddADish", dish)
+        </div>
+    </div>
+</section>

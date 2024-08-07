@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\CRUDelicious\\CRUDelicious.csproj": {}
+    "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\CRUDelicious\\CRUDelicious.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\CRUDelicious\\CRUDelicious.csproj": {
+    "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\CRUDelicious\\CRUDelicious.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\CRUDelicious\\CRUDelicious.csproj",
+        "projectUniqueName": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\CRUDelicious\\CRUDelicious.csproj",
         "projectName": "CRUDelicious",
-        "projectPath": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\CRUDelicious\\CRUDelicious.csproj",
+        "projectPath": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\CRUDelicious\\CRUDelicious.csproj",
         "packagesPath": "C:\\Users\\TyraCato\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\CRUDelicious\\obj\\",
+        "outputPath": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\CRUDelicious\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TyraCato\\AppData\\Roaming\\NuGet\\NuGet.Config"

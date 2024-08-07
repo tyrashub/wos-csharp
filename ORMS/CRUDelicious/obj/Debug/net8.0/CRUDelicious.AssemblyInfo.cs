@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRUDelicious")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+81581195234e65c94fcc9130fe845848f080640b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99b994ce7c43f1faf6df8018290bc5eb6b5e7e36")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRUDelicious")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRUDelicious")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

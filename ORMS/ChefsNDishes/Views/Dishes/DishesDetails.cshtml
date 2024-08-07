@@ -1,0 +1,23 @@
+@model Dishes;
+
+@{
+    var dishes = Model;
+    ViewData["Title"] = "Dish Details";
+}
+
+<section>
+    <h1 class="display-4 mb-3">@dishes.Name</h1>
+    <div class="card shadow">
+        <div class="card-body">
+            <h2 class="fs-5 card-title mb-3">@dishes.Name</h2>
+            <p>
+                <strong>Tastiness: </strong>
+                @dishes.Tastiness
+            </p>
+            <p>
+                <strong>Calories: </strong>
+                @dishes.Calories
+            </p>
+        </div>
+    </div>
+</section>
