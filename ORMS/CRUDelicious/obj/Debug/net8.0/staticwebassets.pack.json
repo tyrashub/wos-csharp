@@ -9,6 +9,42 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\CRUDelicious\\wwwroot\\images\\after-delete.png",
+      "PackagePath": "staticwebassets\\images\\after-delete.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\CRUDelicious\\wwwroot\\images\\before-delete.png",
+      "PackagePath": "staticwebassets\\images\\before-delete.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\CRUDelicious\\wwwroot\\images\\home.png",
+      "PackagePath": "staticwebassets\\images\\home.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\CRUDelicious\\wwwroot\\images\\invalid-validations.png",
+      "PackagePath": "staticwebassets\\images\\invalid-validations.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\CRUDelicious\\wwwroot\\images\\null-validations.png",
+      "PackagePath": "staticwebassets\\images\\null-validations.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\CRUDelicious\\wwwroot\\images\\show-dish.png",
+      "PackagePath": "staticwebassets\\images\\show-dish.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\CRUDelicious\\wwwroot\\images\\update-dish-after.png",
+      "PackagePath": "staticwebassets\\images\\update-dish-after.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\CRUDelicious\\wwwroot\\images\\update-dish-before.png",
+      "PackagePath": "staticwebassets\\images\\update-dish-before.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\CRUDelicious\\wwwroot\\images\\updated-sql-table.png",
+      "PackagePath": "staticwebassets\\images\\updated-sql-table.png"
+    },
+    {
       "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\CRUDelicious\\wwwroot\\images\\wireframe.png",
       "PackagePath": "staticwebassets\\images\\wireframe.png"
     },

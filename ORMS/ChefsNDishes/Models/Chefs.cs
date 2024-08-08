@@ -25,27 +25,34 @@ namespace ChefsNDishes.Models
         [Required(ErrorMessage = "Please choose your date of birth.")]
 
         public DateOnly? DateOfBirth { get; set; }
+
+        // [Required(ErrorMessage = "Date of birth is required!")]
+        // [DataType(DataType.Date)]
+        // [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
+        // [Display(Name = "Date of Birth")]
+        // public DateTime DateOfBirth { get; set; }
+
+        // [Required(ErrorMessage = "Age required!")]
+        // [Range(18, int.MaxValue, ErrorMessage = "You must be 18 years of older to be a chef!!")]
+        // public int Age => (int)(DateTime.Now.Subtract(DateOfBirth).TotalDays / 365);
         public List<Dishes> Dishes { get; set; } = new List<Dishes>();
 
         public DateTime CreatedAt { get; set; } = DateTime.Now;
 
         public DateTime UpdatedAt { get; set; } = DateTime.Now;
 
-        // public int Age
+        // public int GetAge()
         // {
-        //     get
+        //     if (DateOfBirth == null)
         //     {
-        //         if (!DateOfBirth.HasValue)
-        //             throw new InvalidOperationException("Date of Birth is not set.");
-
-        //         var today = DateOnly.FromDateTime(DateTime.Now);
-        //         var age = today.Year - DateOfBirth.Value.Year;
-
-        //         if (DateOfBirth.Value > today.AddYears(-age))
-        //             age--;
-
-        //         return age;
+        //         throw new InvalidOperationException("Birthdate is not set.");
         //     }
+        //     var today = DateTime.Today.Date;
+        //     var age = today.Year - DateOfBirth.Value.Year;
+        //     // Adjust if the birthdate hasn't occurred yet this year
+        //     if (DateOfBirth.Value > today.AddYears(-age)) age--;
+        //     return age;
+        // }
     }
 }
 

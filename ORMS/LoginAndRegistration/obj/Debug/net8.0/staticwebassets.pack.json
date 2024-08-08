@@ -9,6 +9,34 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\LoginAndRegistration\\wwwroot\\images\\existing-user.png",
+      "PackagePath": "staticwebassets\\images\\existing-user.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\LoginAndRegistration\\wwwroot\\images\\log-validations.png",
+      "PackagePath": "staticwebassets\\images\\log-validations.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\LoginAndRegistration\\wwwroot\\images\\profile-page.png",
+      "PackagePath": "staticwebassets\\images\\profile-page.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\LoginAndRegistration\\wwwroot\\images\\reg-validations.png",
+      "PackagePath": "staticwebassets\\images\\reg-validations.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\LoginAndRegistration\\wwwroot\\images\\second-validations.png",
+      "PackagePath": "staticwebassets\\images\\second-validations.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\LoginAndRegistration\\wwwroot\\images\\updated-sql-table.png",
+      "PackagePath": "staticwebassets\\images\\updated-sql-table.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\LoginAndRegistration\\wwwroot\\images\\wireframe.png",
+      "PackagePath": "staticwebassets\\images\\wireframe.png"
+    },
+    {
       "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\LoginAndRegistration\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
@@ -17,12 +45,12 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\README.md"
     },
     {
-      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\LoginAndRegistration\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.min.css"
+      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\LoginAndRegistration\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\LoginAndRegistration\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.min.css.map"
+      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\LoginAndRegistration\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
       "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\LoginAndRegistration\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js",

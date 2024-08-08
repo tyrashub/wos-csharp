@@ -1,0 +1,16 @@
+@model List<Product>;
+
+@{
+    var products = Model;
+}
+
+<div class="card shadow">
+    <div class="card-body">
+        <ul class="list-group list-group-flush">
+            @foreach (var product in products)
+            {
+                <li class="list-group-item">@product.Name</li>
+            }
+        </ul>
+    </div>
+</div>

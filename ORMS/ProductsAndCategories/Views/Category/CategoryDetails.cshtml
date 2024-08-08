@@ -1,0 +1,41 @@
+@model CategoryDetailsPageViewModel;
+
+@{
+    var category = Model.Category;
+    var association = Model.Association;
+    var unAssociatedProducts = Model.Products;
+    ViewData["Title"] = "Category Details";
+}
+
+<section>
+    <h1 class="display-4 mb-3">@category?.Name</h1>
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <h2 class="display-6 mb-3">Category Products</h2>
+            @await Html.PartialAsync("_AssociatedProducts", category?.AssociatedProducts)
+        </div>
+        <div class="col-12 col-md-6">
+            <h2 class="display-6 mb-3">Add Product to this Category</h2>
+            <div class="card shadow">
+                <div class="card-body">
+                    <form asp-action="AddProductToCategory" asp-controller="Category" method="post">
+                        <input type="hidden" name="CategoryId" value="@association?.CategoryId">
+                        <div class="mb-3">
+                            <label for="ProductId" class="form-label"></label>
+                            <select name="ProductId" id="ProductId" class="form-control">
+                                <option value="" selected hidden disabled>Select Product</option>
+                                @foreach (var product in unAssociatedProducts)
+                                {
+                                    <option value="@product.ProductId">@product.Name</option>
+                                }
+                            </select>
+                        </div>
+                        <div class="text-end">
+                            <button type="submit" class="btn btn-primary">Add</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
