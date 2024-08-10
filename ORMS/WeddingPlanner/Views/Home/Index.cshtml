@@ -1,0 +1,74 @@
+﻿@using WeddingPlanner.ViewModels
+@model HomePageViewModel;
+
+@{
+    var user = Model.User;
+    var loginUser = Model.LoginUser;
+    ViewData["Title"] = "Home Page";
+}
+<header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" href="/">The Wedding Planner</a>
+                  @* <img src="~/images/index.jpg" class="img-thumbnail" alt="Index IMG">  *@
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                           <li class="nav-item">
+                            <a class="nav-link" href="/">Register</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="/">Login</a>
+                        </li>
+                        @* <li class="nav-item">
+                            <a class="nav-link" href="/weddings">All Weddings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/logout">Logout</a>
+                        </li>
+                    </ul> *@
+                </div>
+            </div>
+        </nav>
+    </header>
+<div>
+
+    @if (ViewBag.Message is not null)
+    {
+        if (ViewBag.Message == "not-authenticated")
+        {
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                You must be logged in to view that page.
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        }
+
+        else if (ViewBag.Message == "invalid-credentials")
+        {
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                Invalid credentials.
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        }
+    }
+
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <div class="card shadow mb-3">
+                <div class="card-body">
+                    @await Html.PartialAsync("Partials/_RegisterForm", user)
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="card shadow">
+                <div class="card-body">
+                    @await Html.PartialAsync("Partials/_LoginForm", loginUser)
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,98 @@
+@using WeddingPlanner.ViewModels
+@using WeddingPlanner.Models
+@model WeddingsPageViewModel;
+
+@{
+    var user = Model.User;
+    var weddings = Model.Weddings;
+    ViewData["Title"] = "Weddings";
+}
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow mb-4">
+        <div class="container">
+            <a class="navbar-brand" href="/">The Wedding Planner</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/weddings/new">Plan a Wedding!</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/weddings">All Weddings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/logout">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<section>
+    <h1 class="display-3 mb-3">Welcome @user.FirstName!</h1>
+    <form action="/weddings/sort" method="post">
+        <label for="property" class="form-label">Sort table by:</label>
+        <select name="property" id="property">
+            <option value="Date">Wedding of</option>
+            <option value="Date">Date</option>
+            <option value="Date">Guest Count</option>
+        </select>
+        <button type="submit" class="btn btn-secondary btn-sm">Sort</button>
+    </form>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Wedding of</th>
+                <th>Date</th>
+                <th>Guest Count</th>
+                <th>View</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var wedding in weddings)
+            {
+                <tr>
+                    <td>@wedding.WedderOne & @wedding.WedderTwo</td>
+                    <td>@wedding.Date.Value.ToString("MMM dd yyyy")</td>
+
+                    <td>@wedding.Rsvp.Count</td>
+                    <td>
+                        <a class="btn btn-sm btn-primary" href="/weddings/@wedding.WeddingId">Details</a>
+                    </td>
+                    <td class="d-flex gap-2">
+
+                        <div class="d-flex gap-2">
+
+                            @if (!wedding.IsAttending(user.UserId))
+                            {
+                                <form action="/weddings/@wedding.WeddingId/rsvp" method="post">
+                                    @* <input type="hidden" name="UserId" value="@user.UserId"> *@
+                                    <button type="submit" class="btn btn-sm btn-primary">RSVP</button>
+                                </form>
+                            }
+                            @if (wedding.IsAttending(user.UserId))
+                            {
+                                <form action="/weddings/@wedding.WeddingId/unrsvp" method="post">
+                                    @* <input type="hidden" name="UserId" value="@user.UserId"> *@
+                                    <button type="submit" class="btn btn-sm btn-warning">Un-RSVP</button>
+                                </form>
+                            }
+
+                            @if (wedding.UserId == user.UserId)
+                            {
+                                <form action="/weddings/@wedding.WeddingId/delete" method="post">
+                                    <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                                </form>
+                            }
+                        </div>
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</section>

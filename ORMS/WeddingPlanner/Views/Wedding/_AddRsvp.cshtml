@@ -1,0 +1,21 @@
+@model Rsvp;
+
+<form asp-action="CreateRsvp" asp-controller="Wedding" asp-route-weddingId="@Model.WeddingId" method="post">
+    <input type="hidden" asp-for="UserId">
+    <input type="hidden" asp-for="WeddingId">
+
+<section>
+    <div class="col">
+        <h3>Guests: @Model.Wedding.Rsvp.Count</h3>
+        <p>@Model.Wedding.Rsvp.Count have RSVP'd to this event</p>
+
+        <ul class="list-group">
+            @foreach (var rsvp in @Model.Wedding.Rsvp)
+            {
+                <li class="list-group-item">
+                    @rsvp.User.FirstName @rsvp.User.LastName
+                </li>
+            }
+        </ul>
+    </div>
+</form>

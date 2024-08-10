@@ -1,0 +1,64 @@
+@using WeddingPlanner.ViewModels
+@using WeddingPlanner.Models
+@model WeddingDetailsViewModel
+
+@{
+    var userId = Model.UserId;
+    var wedding = Model.Wedding;
+    var rsvp = Model.Rsvp;
+    ViewData["Title"] = "Wedding Details";
+}
+
+<section>
+    <h1 class="display-4 mb-3">Wedding Details</h1>
+    <h2 class="display-6 mb-3">@wedding.WedderOne & @wedding.WedderTwo's wedding</h2>
+    <div class="row">
+        <div class="col">
+            <p>
+                <strong>Date: </strong>
+                @wedding.Date.Value.ToString("MMMM d, yyyy")
+            </p>
+            <p>
+                <strong>Address:</strong>
+            </p>
+            <p>@wedding.Address</p>
+            @*
+            <div class="d-flex gap-2">
+            <form action="/weddings/@wedding.WeddingId/rsvp" method="post">
+            <button type="submit" class="btn btn-sm btn-primary">RSVP</button>
+            </form>
+
+            @if (wedding.Rsvp.Any(r => r.UserId == userId))
+            {
+            <form action="/weddings/@wedding.WeddingId/unrsvp" method="post">
+            <button type="submit" class="btn btn-sm btn-warning">Un-RSVP</button>
+            </form>
+            }
+
+            @if (wedding.UserId == userId)
+            {
+            <form action="/weddings/@wedding.WeddingId/delete" method="post">
+            <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+            </form>
+            }
+            </div> *@
+        </div>
+        <div class="row mt-3">
+            <h3>Guests: </h3>
+            <p>@wedding.Rsvp.Count user(s) have RSVP'd!</p>
+            <div class="card shadow">
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        @foreach (var user in wedding.Rsvp)
+                        {
+                            <li class="list-group-item">
+                                @user.User.FullName
+                            </li>
+                        }
+                    </ul>
+                    <a class="btn btn-sm btn-primary mt-4" href="/weddings">Go Back</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

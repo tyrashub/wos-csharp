@@ -1,0 +1,39 @@
+@model Wedding;
+
+@{
+    ViewData["Title"] = "Edit Wedding";
+}
+
+<section>
+    <h1 class="display-4 mb-3">Edit Wedding</h1>
+    <div class="card shadow">
+        <div class="card-body">
+            <form asp-action="UpdateWedding" asp-controller="Wedding" asp-route-weddingId="@Model.WeddingId" method="post">
+                <input type="hidden" asp-for="UserId">
+                <div class="mb-3">
+                    <label class="form-label" asp-for="WedderOne"></label>
+                    <input class="form-control" asp-for="WedderOne">
+                    <span class="form-text text-warning" asp-validation-for="WedderOne"></span>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" asp-for="WedderTwo"></label>
+                    <input class="form-control" asp-for="WedderTwo">
+                    <span class="form-text text-warning" asp-validation-for="WedderTwo"></span>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" asp-for="Date"></label>
+                    <input class="form-control" asp-for="Date">
+                    <span class="form-text text-warning" asp-validation-for="Date"></span>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" asp-for="Address"></label>
+                    <textarea class="form-control textarea" asp-for="Address"></textarea>
+                    <span class="form-text text-warning" asp-validation-for="Address"></span>
+                </div>
+                <div class="text-end">
+                    <button type="submit" class="btn btn-primary">Edit Wedding</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
