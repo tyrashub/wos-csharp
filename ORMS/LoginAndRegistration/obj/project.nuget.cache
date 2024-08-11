@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1Mj1zfr7DGQ=",
+  "dgSpecHash": "9Cv30TVt13o=",
   "success": true,
-  "projectFilePath": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\LoginAndRegistration\\LoginAndRegistration.csproj",
+  "projectFilePath": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\LoginAndRegistration\\LoginAndRegistration.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TyraCato\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\TyraCato\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

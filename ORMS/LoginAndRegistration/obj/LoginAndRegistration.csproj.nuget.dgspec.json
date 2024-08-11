@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\LoginAndRegistration\\LoginAndRegistration.csproj": {}
+    "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\LoginAndRegistration\\LoginAndRegistration.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\LoginAndRegistration\\LoginAndRegistration.csproj": {
+    "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\LoginAndRegistration\\LoginAndRegistration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\LoginAndRegistration\\LoginAndRegistration.csproj",
+        "projectUniqueName": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\LoginAndRegistration\\LoginAndRegistration.csproj",
         "projectName": "LoginAndRegistration",
-        "projectPath": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\LoginAndRegistration\\LoginAndRegistration.csproj",
+        "projectPath": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\LoginAndRegistration\\LoginAndRegistration.csproj",
         "packagesPath": "C:\\Users\\TyraCato\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\LoginAndRegistration\\obj\\",
+        "outputPath": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\LoginAndRegistration\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TyraCato\\AppData\\Roaming\\NuGet\\NuGet.Config"

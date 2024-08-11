@@ -1,0 +1,83 @@
+@model Coupon;
+
+@{
+    ViewData["Title"] = "Add a New Coupon";
+}
+
+
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow mb-4">
+        <div class="container">
+            <a class="navbar-brand" href="/">Coupon Clipper</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/coupons">All Coupons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/coupons/new">Add a Coupon</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/account">Account Info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/logout">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<section>
+    <h1 class="display-4 mb-3">Add a Coupon!</h1>
+    <div class="card shadow">
+        <div class="card-body">
+            <form asp-action="CreateCoupon" asp-controller="Coupon" method="post">
+                <input type="hidden" asp-for="UserId">
+                <div class="mb-3">
+                    <label class="form-label" asp-for="CouponCode">Coupon Code</label>
+                    <input class="form-control" asp-for="CouponCode">
+                    <span class="form-text text-warning" asp-validation-for="CouponCode"></span>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" asp-for="Website">Website applicable on</label>
+                    <input class="form-control" asp-for="Website">
+                    <span class="form-text text-warning" asp-validation-for="Website"></span>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" asp-for="Expiration"></label>
+                    <input class="form-control" asp-for="Expiration">
+                    <span class="form-text text-warning" asp-validation-for="Expiration"></span>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" asp-for="Description"></label>
+                    <textarea class="form-control" asp-for="Description" rows="4"></textarea>
+                    <span class="form-text text-warning" asp-validation-for="Description"></span>
+                </div>
+                @*
+                <div class="mb-3">
+                <label for="IsUsed" class="form-label">Mark Used</label>
+                <input for="IsUsed" class="form-check-input" type="checkbox" />
+                </div>
+
+                <div class="mb-3">
+                <label for="IsExpired" class="form-label">Mark Expired</label>
+                <input for="IsExpired" class="form-check-input" type="checkbox" />
+                </div> *@
+
+                <div class="mb-3">
+                    <label for="TimesUsed" class="form-label">Times Used</label>
+                    <input for="TimesUsed" class="form-control" type="number" />
+                </div>
+                <div class="text-end">
+                    <button type="submit" class="btn btn-primary">Add Coupon!</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>

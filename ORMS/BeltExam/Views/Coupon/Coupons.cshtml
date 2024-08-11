@@ -1,0 +1,81 @@
+@using BeltExam.ViewModels
+@using BeltExam.Models
+@model CouponsPageViewModel;
+
+@{
+    var user = Model.User;
+    var coupons = Model.Coupons;
+    ViewData["Title"] = "Coupons";
+}
+
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow mb-4">
+        <div class="container">
+            <a class="navbar-brand" href="/">Coupon Clipper</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/coupons">All Coupons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/coupons/new">Add a Coupon</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/account">Account Info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/logout">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<section>
+    <h1 class="display-3 mb-3">Welcome @user.Username!</h1>
+    <form action="/coupons/search" method="post" class="mb-3">
+        <label for="searchTerm" class="form-label"></label>
+        <input type="text" name="searchTerm" id="searchTerm" class="form-control" placeholder="Search by Website" />
+        <button type="submit" class="btn btn-sm btn-primary mt-2">Search</button>
+        <a href="/coupons" class="btn btn-sm btn-secondary mt-2">Clear Search</a>
+    </form>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        @foreach (var coupon in coupons)
+        {
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">@coupon.CouponCode</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">@coupon.Website</h6>
+                        <p class="card-text">@coupon.Description</p>
+                        <p class="card-text">
+                            <small class="text-muted">Expires: @coupon.Expiration?.ToString("MMM dd yyyy")</small>
+                        </p>
+                        <div class="d-flex gap-2">
+                            @if (!coupon.IsUsed(user.UserId))
+                            {
+                                <form action="/coupons/@coupon.CouponId/markused" method="post">
+                                    <button type="submit" class="btn btn-sm btn-success">Use this coupon</button>
+                                </form>
+                            }
+                            @if (!coupon.IsExpired(user.UserId))
+                            {
+                                <form action="/coupons/@coupon.CouponId/markexpired" method="post">
+                                    <button type="submit" class="btn btn-sm btn-primary">Mark Expired</button>
+                                </form>
+                            }
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Posted by: @coupon.User.Username</small>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</section>

@@ -1,0 +1,137 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\BeltExam\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\BeltExam\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\BeltExam\\wwwroot\\images\\account-view.png",
+      "PackagePath": "staticwebassets\\images\\account-view.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\BeltExam\\wwwroot\\images\\add-view.png",
+      "PackagePath": "staticwebassets\\images\\add-view.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\BeltExam\\wwwroot\\images\\coupons-table.png",
+      "PackagePath": "staticwebassets\\images\\coupons-table.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\BeltExam\\wwwroot\\images\\coupons-view.png",
+      "PackagePath": "staticwebassets\\images\\coupons-view.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\BeltExam\\wwwroot\\images\\log-vals.png",
+      "PackagePath": "staticwebassets\\images\\log-vals.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\BeltExam\\wwwroot\\images\\reg-vals-2.png",
+      "PackagePath": "staticwebassets\\images\\reg-vals-2.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\BeltExam\\wwwroot\\images\\reg-vals.png",
+      "PackagePath": "staticwebassets\\images\\reg-vals.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\BeltExam\\wwwroot\\images\\search-table.png",
+      "PackagePath": "staticwebassets\\images\\search-table.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\BeltExam\\wwwroot\\images\\users-table.png",
+      "PackagePath": "staticwebassets\\images\\users-table.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\BeltExam\\wwwroot\\images\\wireframe.png",
+      "PackagePath": "staticwebassets\\images\\wireframe.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\BeltExam\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\BeltExam\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\BeltExam\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\BeltExam\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\BeltExam\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\BeltExam\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\BeltExam\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\BeltExam\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\BeltExam\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\BeltExam\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\BeltExam\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\BeltExam\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\BeltExam\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\BeltExam\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\BeltExam\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\BeltExam\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\BeltExam\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BeltExam.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BeltExam.props",
+      "PackagePath": "build\\BeltExam.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BeltExam.props",
+      "PackagePath": "buildMultiTargeting\\BeltExam.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BeltExam.props",
+      "PackagePath": "buildTransitive\\BeltExam.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

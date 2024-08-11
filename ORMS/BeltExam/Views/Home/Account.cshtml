@@ -1,0 +1,49 @@
+@using BeltExam.ViewModels
+@using BeltExam.Models
+@model AccountViewModel;
+@{
+    var user = Model;
+    var coupon = Model;
+    ViewData["Title"] = "Account Page";
+}
+
+
+
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow mb-4">
+        <div class="container">
+            <a class="navbar-brand" href="/">Coupon Clipper</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/coupons">All Coupons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/coupons/new">Add a Coupon</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/account">Account Info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/logout">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<section>
+    <h1 class="display-4 mb-3">Account information</h1>
+    <h3 class="display-7 mb-3">Username: @user.User.Username</h3>
+    <h3 class="display-7 mb-3">Email: @user.User.Email</h3>
+    <div class="row mt-3">
+        <h3>Coupons Posted: @Model.PostedCount</h3>
+        <p># of coupons you used: @Model.UserCouponUses</p>
+        <p># of times your coupons were used: @Model.UsedCount</p>
+    </div>
+</section>
