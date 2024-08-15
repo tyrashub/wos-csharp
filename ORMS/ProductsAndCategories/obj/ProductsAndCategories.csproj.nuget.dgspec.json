@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\ProductsAndCategories\\ProductsAndCategories.csproj": {}
+    "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\ProductsAndCategories\\ProductsAndCategories.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\ProductsAndCategories\\ProductsAndCategories.csproj": {
+    "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\ProductsAndCategories\\ProductsAndCategories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\ProductsAndCategories\\ProductsAndCategories.csproj",
+        "projectUniqueName": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\ProductsAndCategories\\ProductsAndCategories.csproj",
         "projectName": "ProductsAndCategories",
-        "projectPath": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\ProductsAndCategories\\ProductsAndCategories.csproj",
+        "projectPath": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\ProductsAndCategories\\ProductsAndCategories.csproj",
         "packagesPath": "C:\\Users\\TyraCato\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\ProductsAndCategories\\obj\\",
+        "outputPath": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\ProductsAndCategories\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TyraCato\\AppData\\Roaming\\NuGet\\NuGet.Config"

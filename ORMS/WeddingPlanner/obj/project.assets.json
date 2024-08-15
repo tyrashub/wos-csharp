@@ -2271,11 +2271,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\WeddingPlanner\\WeddingPlanner.csproj",
+      "projectUniqueName": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\WeddingPlanner\\WeddingPlanner.csproj",
       "projectName": "WeddingPlanner",
-      "projectPath": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\WeddingPlanner\\WeddingPlanner.csproj",
+      "projectPath": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\WeddingPlanner\\WeddingPlanner.csproj",
       "packagesPath": "C:\\Users\\TyraCato\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\WeddingPlanner\\obj\\",
+      "outputPath": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\WeddingPlanner\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\TyraCato\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -2337,7 +2337,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

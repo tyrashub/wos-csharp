@@ -1,99 +1,131 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\images\\credentials-check.png",
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\images\\add-second-vals.png",
+      "PackagePath": "staticwebassets\\images\\add-second-vals.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\images\\add-view-with-val.png",
+      "PackagePath": "staticwebassets\\images\\add-view-with-val.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\images\\credentials-check.png",
       "PackagePath": "staticwebassets\\images\\credentials-check.png"
     },
     {
-      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\images\\index.jpg",
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\images\\index.jpg",
       "PackagePath": "staticwebassets\\images\\index.jpg"
     },
     {
-      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\images\\log-validations.png",
-      "PackagePath": "staticwebassets\\images\\log-validations.png"
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\images\\log-val.png",
+      "PackagePath": "staticwebassets\\images\\log-val.png"
     },
     {
-      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\images\\reg-validations.png",
-      "PackagePath": "staticwebassets\\images\\reg-validations.png"
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\images\\reg-val.png",
+      "PackagePath": "staticwebassets\\images\\reg-val.png"
     },
     {
-      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\images\\wireframe.png",
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\images\\rsvp-table.png",
+      "PackagePath": "staticwebassets\\images\\rsvp-table.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\images\\user-added-wed-view.png",
+      "PackagePath": "staticwebassets\\images\\user-added-wed-view.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\images\\user-no-wed-added-view.png",
+      "PackagePath": "staticwebassets\\images\\user-no-wed-added-view.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\images\\users-table.png",
+      "PackagePath": "staticwebassets\\images\\users-table.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\images\\wed-details.png",
+      "PackagePath": "staticwebassets\\images\\wed-details.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\images\\weddings-table.png",
+      "PackagePath": "staticwebassets\\images\\weddings-table.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\images\\wireframe.png",
       "PackagePath": "staticwebassets\\images\\wireframe.png"
     },
     {
-      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\ORMS\\WeddingPlanner\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

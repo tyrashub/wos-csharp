@@ -42,6 +42,7 @@ namespace ChefsNDishes.Controllers
                     Chef = new Chef(),
                     Chefs = chefs,
                 };
+
                 return View("Chefs", chefsPageViewModel);
             }
 
