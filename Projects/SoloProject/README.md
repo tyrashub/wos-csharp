@@ -29,4 +29,5 @@
 ##### Session Check and Unique Email Validation 
 ##### Static Content like Images, CSS, and JS 
 ##### Public Deployment 
+##### File Upload
 ##### A Calender with Previous Posts View
