@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - SoloProject</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav
+            class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow mb-3 p-4">
+            <div class="container-fluid">
+                <img src="~/images/assets/logo4.png" class="logo shadow" alt="Logo IMgae"> 
+                <a class="navbar-brand text-white p-2" href="/"> <h1>Curator</h1></a>
+                <div class="navbar-collapse collapse ">
+                    <ul class="navbar-nav flex-grow-1 d-flex justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/index">Refer a Friend!</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/collections/explore">Explore</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/collections">My Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/collections/new">New Collection</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3" style="width: 1300px;">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-white mt-3 p-4">
+        <div class="container">
+            <img src="~/images/assets/logo4.png" class="logo shadow" alt="Logo IMgae" style="height: 50px;">
+            &copy; 2024 - Curator - <a asp-area="" asp-controller="Home" asp-action="Privacy" class="text-white text-decoration-none">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

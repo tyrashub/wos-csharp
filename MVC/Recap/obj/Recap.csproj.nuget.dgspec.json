@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\Recap\\Recap.csproj": {}
+    "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\Recap\\Recap.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\Recap\\Recap.csproj": {
+    "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\Recap\\Recap.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\Recap\\Recap.csproj",
+        "projectUniqueName": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\Recap\\Recap.csproj",
         "projectName": "Recap",
-        "projectPath": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\Recap\\Recap.csproj",
+        "projectPath": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\Recap\\Recap.csproj",
         "packagesPath": "C:\\Users\\TyraCato\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TyraCato\\desktop\\wos-csharp\\MVC\\Recap\\obj\\",
+        "outputPath": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\MVC\\Recap\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TyraCato\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -32,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -56,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.424\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

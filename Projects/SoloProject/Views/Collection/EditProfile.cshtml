@@ -1,0 +1,44 @@
+@using SoloProject.ViewModels
+@model ProfileForm;
+
+@{
+    Layout = "~/Views/Collection/_CollectionsLayout.cshtml";
+    ViewData["Title"] = "Edit Profile";
+}
+
+<section>
+    <h1 class="display-4 mb-3 text-white">Edit Profile</h1>
+    <div class="card shadow collection-card">
+        <div class="card-body">
+            <form asp-action="UpdateProfile" asp-controller="Collection" asp-route-userId="@Model.UserId" method="post" enctype="multipart/form-data">
+                <input type="hidden" asp-for="UserId" />
+
+                <!-- Username -->
+                <div class="mb-3">
+                    <label class="form-label text-white" asp-for="Username">New Username</label>
+                    <input class="form-control" asp-for="Username" />
+                    <span class="form-text text-warning" asp-validation-for="Username"></span>
+                </div>
+
+                <!-- Bio -->
+                <div class="mb-3">
+                    <label class="form-label text-white" asp-for="Bio">New Bio</label>
+                    <textarea id="bio" class="form-control" asp-for="Bio" style="height: 250px;"></textarea>
+                    <span class="form-text text-warning" asp-validation-for="Bio"></span>
+                </div>
+
+                <!-- Profile Image -->
+                <div class="mb-3">
+                    <label class="form-label text-white" asp-for="ProfileImage">New Profile Image</label>
+                    <input type="file" class="form-control" asp-for="ProfileImage" />
+                    <span class="form-text text-warning" asp-validation-for="ProfileImage"></span>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="text-end">
+                    <button type="submit" class="btn text-white" style="background-color: #af5233fb;">Update Profile</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>

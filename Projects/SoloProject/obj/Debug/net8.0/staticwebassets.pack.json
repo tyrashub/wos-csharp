@@ -1,0 +1,505 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\assets\\august.jpeg",
+      "PackagePath": "staticwebassets\\images\\assets\\august.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\assets\\fiddle.jpg",
+      "PackagePath": "staticwebassets\\images\\assets\\fiddle.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\assets\\h.jpg",
+      "PackagePath": "staticwebassets\\images\\assets\\h.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\assets\\image1.jpeg",
+      "PackagePath": "staticwebassets\\images\\assets\\image1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\assets\\july.jpeg",
+      "PackagePath": "staticwebassets\\images\\assets\\july.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\assets\\june.jpeg",
+      "PackagePath": "staticwebassets\\images\\assets\\june.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\assets\\la.webp",
+      "PackagePath": "staticwebassets\\images\\assets\\la.webp"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\assets\\landing3.jpg",
+      "PackagePath": "staticwebassets\\images\\assets\\landing3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\assets\\logo2.png",
+      "PackagePath": "staticwebassets\\images\\assets\\logo2.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\assets\\logo3.png",
+      "PackagePath": "staticwebassets\\images\\assets\\logo3.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\assets\\logo4.png",
+      "PackagePath": "staticwebassets\\images\\assets\\logo4.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\assets\\m.webp",
+      "PackagePath": "staticwebassets\\images\\assets\\m.webp"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\assets\\march.jpeg",
+      "PackagePath": "staticwebassets\\images\\assets\\march.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\assets\\may.jpeg",
+      "PackagePath": "staticwebassets\\images\\assets\\may.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\assets\\may1.jpeg",
+      "PackagePath": "staticwebassets\\images\\assets\\may1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\assets\\may2.jpeg",
+      "PackagePath": "staticwebassets\\images\\assets\\may2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\assets\\q.jpg",
+      "PackagePath": "staticwebassets\\images\\assets\\q.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\assets\\s.webp",
+      "PackagePath": "staticwebassets\\images\\assets\\s.webp"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\assets\\sw.jpg",
+      "PackagePath": "staticwebassets\\images\\assets\\sw.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\assets\\the.jpeg",
+      "PackagePath": "staticwebassets\\images\\assets\\the.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\assets\\w.jpg",
+      "PackagePath": "staticwebassets\\images\\assets\\w.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\assets\\z.jpg",
+      "PackagePath": "staticwebassets\\images\\assets\\z.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\wireframes\\collection-details.png",
+      "PackagePath": "staticwebassets\\images\\wireframes\\collection-details.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\wireframes\\dashboard.png",
+      "PackagePath": "staticwebassets\\images\\wireframes\\dashboard.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\wireframes\\edit-profile.png",
+      "PackagePath": "staticwebassets\\images\\wireframes\\edit-profile.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\wireframes\\explore.png",
+      "PackagePath": "staticwebassets\\images\\wireframes\\explore.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\wireframes\\landing.png",
+      "PackagePath": "staticwebassets\\images\\wireframes\\landing.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\wireframes\\login-reg.png",
+      "PackagePath": "staticwebassets\\images\\wireframes\\login-reg.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\wireframes\\new-collection.png",
+      "PackagePath": "staticwebassets\\images\\wireframes\\new-collection.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SoloProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SoloProject.props",
+      "PackagePath": "build\\SoloProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SoloProject.props",
+      "PackagePath": "buildMultiTargeting\\SoloProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SoloProject.props",
+      "PackagePath": "buildTransitive\\SoloProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,165 @@
+@using SoloProject.ViewModels
+@using SoloProject.Models
+@model CollectionsPageViewModel;
+
+@{
+    var user = Model.User;
+    var collections = Model.Collections;
+    Layout = "~/Views/Collection/_CollectionsLayout.cshtml";
+    ViewData["Title"] = "Collections";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar/index.global.min.js'></script>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="body">
+    <!-- My Collections -->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <!-- Profile Card -->
+                <h2 class="text-white">My Profile🌟</h2>
+                <div class="card mb-5 collection-card">
+                    <div class="card-body">
+                        <img src="@user?.ProfileImage" class="rounded-circle mb-3" alt="Profile Image"
+                            style="width: 100px; height: 100px;">
+                        <h5 class="card-title text-white">Welcome back,<a href="#" class="text-decoration-none">
+                                @Html.Raw("@")@user?.Username</a></h5>
+                        <br>
+                        <strong>
+                            <h6 class="text-white">About Me:</h6>
+                        </strong>
+                        <p class="text-white">@user?.Bio</p>
+                        <a href="/collections/profile/@user?.UserId/edit"
+                            class="btn btn-sm text-white"  style="background-color: #c36b4dfb;" >Edit</a>
+                    </div>
+                </div>
+                <h2 class="text-white">My Collections🪄</h2>
+                @foreach (var collection in collections)
+                {
+                    <div class="col-md-2 mb-3 ">
+                        <div class="card shadow collection-card" style="background-color: #f0b69e;">
+                            <img src="@collection.CoverImage" class="card-img-top img" alt="Cover Image">
+                            <div class="card-body cover-img text-center align-content-end">
+                                <h5 class="card-title text-white">@collection?.CollectionName</h5>
+                                <small class="text-muted">Uploaded on: @collection?.Date?.ToString("MM/dd/yyyy")</small>
+                                <a href="/collections/@collection?.CollectionId"  style="background-color: #d26c4bfb;" class="btn btn shadow text-white mt-2 btn-block">View</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+                <div class="col-md-2 mt-3">
+                </div>
+            </div>
+
+
+            @* <a href="/collections/new" class="btn btn-info text-white mt-3 mb-3">New Collection</a> *@
+            <!-- Art Progress Calendar -->
+            @* <div class="row mb-3"> *@
+            @* <div class="col-md-2 mt-3"> *@
+            <!-- Profile Card -->
+            @* <div class="card mb-4">
+            <div class="card-body">
+            <img src="@user?.ProfileImage" class="rounded-circle mb-3" alt="Profile Image"
+            style="width: 100px; height: 100px;">
+            <h5 class="card-title">Welcome back,<a href="#" class="text-decoration-none">
+            @Html.Raw("@")@user?.Username</a></h5>
+            <br>
+            <strong>
+            <h6>About Me:</h6>
+            </strong>
+            <p>@user?.Bio</p>
+            <a href="/collections/profile/@user?.UserId/edit"
+            class="btn btn-sm btn-info text-white">Edit</a>
+            </div>
+            </div> *@
+            @* </div> *@
+        </div>
+        <div class="row">
+            <!-- Art Progress Calendar -->
+            <div class="col-sm-6 mt-3">
+                <div class="card shadow card collection-card" style="height: 640px; background-color: #f0b69e;">
+                    <div class="card-body">
+                        <h3 class="card-title text-center text-white">Art Progress🗓️</h3>
+                        <div id="calendar" class="shadow-sm border p-3" style="background-color: white;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Log Progress Form -->
+            <div class="col-sm-6 mt-3 mb-3">
+                <div class="card shadow card collection-card" style="height: 640px; background-color: #f0b69e;">
+                    <div class="card-body">
+                        <h4 class="text-center text-white">Log Progress📝</h4>
+                        <form>
+                            <div class="form-group">
+                                <label for="progressDate" class="text-white">Date</label>
+                                <input type="date" class="form-control" id="progressDate" name="progressDate">
+                            </div>
+                            <div class="form-group">
+                                <label for="medium" class="text-white">Art Medium</label>
+                                <br>
+                                <button class="btn btn-outline-light dropdown-toggle text-muted" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #ffffff;">Choose art medium(s)</button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Painting</a></li>
+                                    <li><a class="dropdown-item" href="#">Photography</a></li>
+                                    <li><a class="dropdown-item" href="#">Digital</a></li>
+                                    <li><a class="dropdown-item" href="#">Watercolor</a></li>
+                                    <li><a class="dropdown-item" href="#">Chalk</a></li>
+                                    <li><a class="dropdown-item" href="#">Crochet</a></li>
+                                    <li><a class="dropdown-item" href="#">Pastels</a></li>
+                                    <li><a class="dropdown-item" href="#">Colored Pencils</a></li>
+                                    <li><a class="dropdown-item" href="#">Calligraphy</a></li>
+                                    <li><a class="dropdown-item" href="#">Markers</a></li>
+                                    <li><a class="dropdown-item" href="#">Printmaking</a></li>
+                                    <li><a class="dropdown-item" href="#">Lazercutting</a></li>
+                                    <li><a class="dropdown-item" href="#">Industrial</a></li>
+                                    <li><a class="dropdown-item" href="#">Charcoal</a></li>
+                                    <li><a class="dropdown-item" href="#">Spraypaint</a></li>
+                                    <li><a class="dropdown-item" href="#">Other</a></li>
+                                </ul>
+                            </div>
+                            <div class="form-group">
+                                <label for="description" class="text-white">Description</label>
+                                <textarea class="form-control" id="description" name="description" rows="3"
+                                    placeholder="Describe your progress"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="improvements" class="text-white">Desired improvements</label>
+                                <textarea class="form-control" id="description" name="improvements" rows="3"
+                                    placeholder="Describe what you want to improve on"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="imageUpload" class="text-white">Add an image (optional)</label>
+                                <input type="file" class="form-control-file text-white" id="imageUpload" name="imageUpload">
+                            </div>
+                            <button type="submit" class="btn text-white btn-block" style="background-color: #d26c4bfb;">Log Progress</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="~/js/site.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const calendarEl = document.getElementById('calendar');
+                const calendar = new FullCalendar.Calendar(calendarEl, {
+                    initialView: 'dayGridMonth'
+                });
+                calendar.render();
+            });
+
+        </script>
+</body>
+</html>

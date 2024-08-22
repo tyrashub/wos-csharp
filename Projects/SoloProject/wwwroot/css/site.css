@@ -1,22 +1,53 @@
+*,
+body,
 html {
-  font-size: 14px;
+  font-family: "Balsamiq Sans", sans-serif;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
+.body,
+.container,
 body {
-  margin-bottom: 60px;
+  background-color: #f1a68c;
+}
+
+.navbar,
+.card,
+.btn {
+  background-color: #d26c4bfb;
+}
+
+.logo-img {
+  height: 450px;
+  border-radius: 10px;
+  object-fit: fill;
+}
+
+.logo {
+  height: 100px;
+  border-radius: 75%;
+}
+
+collection-img {
+  height: 700px;
+  margin-bottom: 10px;
+}
+
+.img {
+  height: 300px;
+}
+
+.card,
+.explore-img {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-align: justify;
+}
+
+.collection-card {
+  background: linear-gradient(to top, #f0b69e, #be6a4e);
+}
+
+.collection-card1 {
+  background-color: #f3bca487;
 }

@@ -18,8 +18,48 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\TyraCato\Desktop\wos-csharp\Projects\SoloProject
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/TyraCato/Desktop/wos-csharp/Projects/SoloProject/Views/Collection/CollectionDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvblxDb2xsZWN0aW9uRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TyraCato/Desktop/wos-csharp/Projects/SoloProject/Views/Collection/Collections.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvblxDb2xsZWN0aW9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TyraCato/Desktop/wos-csharp/Projects/SoloProject/Views/Collection/EditCollection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvblxFZGl0Q29sbGVjdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TyraCato/Desktop/wos-csharp/Projects/SoloProject/Views/Collection/EditProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvblxFZGl0UHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TyraCato/Desktop/wos-csharp/Projects/SoloProject/Views/Collection/Explore.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvblxFeHBsb3JlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TyraCato/Desktop/wos-csharp/Projects/SoloProject/Views/Collection/NewCollection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvblxOZXdDb2xsZWN0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TyraCato/Desktop/wos-csharp/Projects/SoloProject/Views/Collection/_CollectionsLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sbGVjdGlvblxfQ29sbGVjdGlvbnNMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TyraCato/Desktop/wos-csharp/Projects/SoloProject/Views/Home/Curator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDdXJhdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/TyraCato/Desktop/wos-csharp/Projects/SoloProject/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TyraCato/Desktop/wos-csharp/Projects/SoloProject/Views/Home/Partials/_LoginForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsc1xfTG9naW5Gb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TyraCato/Desktop/wos-csharp/Projects/SoloProject/Views/Home/Partials/_RegisterForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsc1xfUmVnaXN0ZXJGb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/TyraCato/Desktop/wos-csharp/Projects/SoloProject/Views/Home/Privacy.cshtml]
@@ -28,6 +68,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/TyraCato/Desktop/wos-csharp/Projects/SoloProject/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TyraCato/Desktop/wos-csharp/Projects/SoloProject/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/TyraCato/Desktop/wos-csharp/Projects/SoloProject/Views/Shared/_ValidationScriptsPartial.cshtml]
@@ -41,7 +85,3 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/TyraCato/Desktop/wos-csharp/Projects/SoloProject/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/TyraCato/Desktop/wos-csharp/Projects/SoloProject/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-748kiyic4y

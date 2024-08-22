@@ -1,0 +1,75 @@
+@model CollectionForm;
+
+@{
+   Layout = "~/Views/Collection/_CollectionsLayout.cshtml";
+    ViewData["Title"] = "Edit Collection";
+}
+
+<head>
+    <script src="https://cdn.tiny.cloud/1/uppz3ic203edooc931p6z1kbyjth0k2h49sejvjckt7o6q8h/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
+   <script>
+    tinymce.init({
+    selector: 'textarea',
+    plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount checklist mediaembed casechange export formatpainter pageembed linkchecker a11ychecker tinymcespellchecker permanentpen powerpaste advtable advcode editimage advtemplate ai mentions tinycomments tableofcontents footnotes mergetags autocorrect typography inlinecss markdown',
+    toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table mergetags | addcomment showcomments | spellcheckdialog a11ycheck typography | align lineheight | checklist numlist bullist indent outdent | emoticons charmap | removeformat',
+    tinycomments_mode: 'embedded',
+    tinycomments_author: 'Author name',
+    mergetags_list: [
+      { value: 'First.Name', title: 'First Name' },
+      { value: 'Email', title: 'Email' },
+    ],
+    ai_request: (request, respondWith) => respondWith.string(() => Promise.reject("See docs to implement AI Assistant")),
+  });
+</script>
+</head>
+
+<section>
+    <h1 class="display-4 mb-3">Edit this Collection</h1>
+    <div class="card shadow collection-card">
+        <div class="card-body">
+            <form asp-action="UpdateCollection" asp-controller="Collection" asp-route-collectionId="@Model.CollectionId" method="post" enctype="multipart/form-data">
+                <input type="hidden" asp-for="UserId">
+
+                <!-- Collection Name -->
+                <div class="mb-3">
+                    <label class="form-label" asp-for="CollectionName">Collection Name🪄</label>
+                    <input class="form-control" asp-for="CollectionName">
+                    <span class="form-text text-warning" asp-validation-for="CollectionName"></span>
+                </div>
+
+                <!-- Journal Entry -->
+                <div class="mb-3">
+                    <label class="form-label" asp-for="JournalEntry">Journal Entry</label>
+                    <textarea id="journalEntry" class="form-control" asp-for="JournalEntry"></textarea>
+                    <span class="form-text text-warning" asp-validation-for="JournalEntry"></span>
+                </div>
+
+                <!-- Date -->
+                <div class="mb-3">
+                    <label class="form-label" asp-for="Date">Date</label>
+                    <input class="form-control" asp-for="Date" type="date">
+                    <span class="form-text text-warning" asp-validation-for="Date"></span>
+                </div>
+
+                <!-- Image Upload -->
+                <div class="mb-3">
+                    <label class="form-label" asp-for="Images">Upload images (up to 6)</label>
+                    <input type="file" class="form-control" asp-for="Images" multiple>
+                    <span class="form-text text-warning" asp-validation-for="Images"></span>
+                </div>
+
+                <!-- Cover Image -->
+                <div class="mb-3">
+                    <label class="form-label" asp-for="CoverImage">Cover Image</label>
+                    <input type="file" class="form-control" asp-for="CoverImage">
+                    <span class="form-text text-warning" asp-validation-for="CoverImage"></span>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="text-end">
+                    <button type="submit" class="btn btn-info text-white">Update</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>

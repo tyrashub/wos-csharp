@@ -1,0 +1,56 @@
+@using SoloProject.Models
+@using SoloProject.ViewModels
+@model ExplorePageViewModel;
+
+@{
+    Layout = "~/Views/Collection/_CollectionsLayout.cshtml";
+    ViewData["Title"] = "Explore Page";
+}
+
+
+<div class="container">
+    <div class="row">
+        <!-- Collections -->
+        <div class="col-md-10">
+            <h3 class="text-white">Explore Art from Other Users!🎨</h3>
+            <div class="row">
+                @foreach (var collection in Model.Collections)
+                {
+                    <div class="col-md-4 mb-3">
+                        <div class="card shadow collection-card" style="width: 340px;">
+                            <img src="@collection.CoverImage" class="card-img-top explore-img" alt="Cover Image">
+                            <div class="card-body">
+                                <h5 class="card-title text-white">@collection.CollectionName</h5>
+                                <p class="text-muted">@Html.Raw('@')@collection.User?.Username</p>
+                                <small class="text-muted">Uploaded on: @collection?.Date?.ToString("MM/dd/yyyy")</small>
+                                <br>
+                                <a href="/collections/@collection?.CollectionId" class="btn btn-info text-white">View</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+        
+        
+                <div class="col-md-2">
+                <h3 class="text-white">My Profile🌟</h3>
+                <!-- Profile Card -->
+                <div class="card mb-4 shadow collection-card1" style="height: fit-content;">
+                    <div class="card-body">
+                        <img src="@Model.User?.ProfileImage" class="rounded-circle mb-3" alt="Profile Image"
+                            style="width: 100px; height: 100px;">
+                        <h5 class="card-title"><a href="#" class="text-decoration-none">@Html.Raw("@")@Model.User?.Username</a></h5>
+                        <br>
+                        <strong>
+                            <h6>About Me:</h6>
+                        </strong>
+                        <p class="text-align-center">@Model.User?.Bio</p>
+                        <a href="/collections/profile/@Model.User?.UserId/edit" class="btn btn-sm btn-info text-white">Edit</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+</div>
