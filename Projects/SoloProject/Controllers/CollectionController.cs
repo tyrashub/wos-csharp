@@ -124,7 +124,7 @@ public class CollectionController : Controller
             return RedirectToAction("Collections");
         }
 
-        return View("CollectionDetails", collectionForm);
+        return View("NewCollection", collectionForm);
     }
 
     [SessionCheck]
@@ -186,6 +186,7 @@ public class CollectionController : Controller
 
         return RedirectToAction("CollectionDetails");
     }
+
     [SessionCheck]
     [HttpPost("collections/{collectionId:int}/togglelike")]
     public IActionResult ToggleLike(int collectionId)

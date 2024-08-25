@@ -7,13 +7,20 @@ html {
 .body,
 .container,
 body {
-  background-color: #f1a68c;
+  background-color: #e5c2b3;
+  backdrop-filter: blur(20px);
 }
 
+.container {
+  max-width: fit-content;
+}
 .navbar,
 .card,
-.btn {
-  background-color: #d26c4bfb;
+.btn,
+footer {
+  background-color: #855542fb;
+  box-shadow: 0 0 1px 1px #f6f3f3;
+  backdrop-filter: blur(20px);
 }
 
 .logo-img {
@@ -37,7 +44,8 @@ collection-img {
 }
 
 .card,
-.explore-img {
+.explore-img,
+.collection-img {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -45,9 +53,45 @@ collection-img {
 }
 
 .collection-card {
-  background: linear-gradient(to top, #f0b69e, #be6a4e);
+  /* background: linear-gradient(to top, #f0b69e, #be6a4e); */
+
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  background-color: #b8816ffb;
+  box-shadow: 0 0 20px 4px #cac5c4;
+
+  backdrop-filter: blur(15px);
 }
 
 .collection-card1 {
-  background-color: #f3bca487;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  background-color: #b8816ffb;
+  box-shadow: 0 0 10px 4px #87635b;
+
+  backdrop-filter: blur(15px);
+}
+
+.profile {
+  position: sticky;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+.bounce-button {
+  animation: bounce 3s infinite;
 }

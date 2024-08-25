@@ -27,15 +27,15 @@
         }
     }
 
-    <div class="row">
-        <div class="col-12 col-md-6">
+    <div class="row mb-5">
+        <div class="col-12 col-md-6 mt-4">
             <div class="card shadow mb-3 collection-card">
                 <div class="card-body">
                     @await Html.PartialAsync("Partials/_RegisterForm", user)
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 mt-4">
             <div class="card shadow collection-card">
                 <div class="card-body">
                     @await Html.PartialAsync("Partials/_LoginForm", loginUser)
@@ -44,3 +44,6 @@
         </div>
     </div>
 </div>
+<br>
+<br>
+<br>

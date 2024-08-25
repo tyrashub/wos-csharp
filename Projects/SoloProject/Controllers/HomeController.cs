@@ -45,7 +45,6 @@ public class HomeController : Controller
 
         return View("Index", indexPageViewModel);
     }
-
     [HttpPost("register")]
     public IActionResult Register(User newUser)
     {
@@ -54,7 +53,7 @@ public class HomeController : Controller
             var indexPageViewModel = new IndexPageViewModel()
             {
                 User = new User(),
-                LoginUser = new LoginUser(),
+                LoginUser = new LoginUser()
             };
             return View("Index", indexPageViewModel);
         }
@@ -66,7 +65,6 @@ public class HomeController : Controller
         _context.SaveChanges();
 
         HttpContext.Session.SetInt32("userId", newUser.UserId);
-
 
         return RedirectToAction("Collections", "Collection");
     }

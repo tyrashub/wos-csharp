@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "r4sj+H7HHjI7UcNVap4qnsCy+9xmDQUVwcx4YeFY+30=",
+  "Hash": "ML3q3inaJOWExiukFO12jDjwYp0NAMWnjJKgCgpsaxk=",
   "Source": "SoloProject",
   "BasePath": "_content/SoloProject",
   "Mode": "Default",
@@ -167,6 +167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\assets\\june.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\assets\\kermie.jpg",
+      "SourceId": "SoloProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\",
+      "BasePath": "_content/SoloProject",
+      "RelativePath": "images/assets/kermie.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\assets\\kermie.jpg"
     },
     {
       "Identity": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\assets\\la.webp",
@@ -357,6 +376,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\assets\\may2.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\assets\\peach.jpg",
+      "SourceId": "SoloProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\",
+      "BasePath": "_content/SoloProject",
+      "RelativePath": "images/assets/peach.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\assets\\peach.jpg"
     },
     {
       "Identity": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\assets\\q.jpg",

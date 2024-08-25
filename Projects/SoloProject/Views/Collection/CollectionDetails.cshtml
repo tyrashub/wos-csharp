@@ -37,16 +37,16 @@ var engagement = Model.Engagement; *@
 <!-- Journal Entry -->
 <div class="row">
     <div class="col-md-12">
-        <div class="card collection-card1">
-            <div class="card-body">
+        <div class="card collection-card1" style="background-color: #bd786190;">
+            <div class="card-body text-white">
                 <p>@Html.Raw(@Model.Collection?.JournalEntry)</p>
-                <small class="text-muted">Uploaded on: @Model.Collection?.Date?.ToString("MM/dd/yyyy")</small>
+                <small class="text-white">Uploaded on: @Model.Collection?.Date?.ToString("MM/dd/yyyy")</small>
                 <div class="mt-3 d-flex justify-content-end gap-2 p-2">
                     <!-- Edit & Delete Buttons -->
                     @if (Model.UserId == Model.Collection?.UserId)
                     {
                         <a href="/collections/@Model.Collection?.CollectionId/edit"
-                            class="btn btn-sm text-white btn-outline-light" style="background-color: rgb(177, 108, 85);">Edit Collection</a>
+                            class="btn btn-sm text-white btn-outline-light" style="background-color:  #855542fb;">Edit Collection</a>
                         <form action="/collections/@Model.Collection?.CollectionId/delete" method="post" class="form"
                             onsubmit="return confirm('Are you sure you want to delete this collection? This action cannot be undone.');">
                             <button type="submit" class="btn btn-sm btn-outline-light" style="background-color: crimson;">Delete</button>
@@ -61,7 +61,7 @@ var engagement = Model.Engagement; *@
 <!-- Engagement Section: Comments & Likes -->
 <div class="row mt-4">
     <div class="col-md-12">
-        <div class="card collection-card1">
+        <div class="card collection-card1 text-white">
             <div class="card-body">
                 <h5>Comments (@Model.CommentCount)</h5>
                 @if (Model.Engagements.Any())
@@ -83,13 +83,13 @@ var engagement = Model.Engagement; *@
                     <div class="form-group">
                         <textarea name="Comment" class="form-control" rows="2" placeholder="Add a comment"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-sm btn-outline-light mt-3" style="background-color: rgb(218, 142, 117);">Comment</button>
+                    <button type="submit" class="btn btn-sm btn-outline-light mt-3" style="background-color:  #855542fb;">Comment</button>
                 </form>
 
                 <!-- Likes Section -->
                 <div class="d-flex justify-content-end align-items-center mt-3">
                     <form method="post" action="/collections/@Model.Collection?.CollectionId/togglelike" class="form">
-                        <button type="submit" class="btn btn-outline-light btn-lg" style="background-color: rgb(218, 142, 117);">💖
+                        <button type="submit" class="btn btn-outline-light btn-lg" style="background-color:  #855542fb;">💖
                             @if (Model.IsLiked)
                             {
                                 <i class="fas fa-heart text-danger"></i>
@@ -106,5 +106,5 @@ var engagement = Model.Engagement; *@
         </div>
     </div>
 </div>
-<a href="/collections" class="btn btn-sm btn-info text-white p-2 mt-3">Dashboard</a>
+<a href="/collections" class="btn btn-sm btn-outline-light text-white p-2 mt-3">Dashboard</a>
 </div>

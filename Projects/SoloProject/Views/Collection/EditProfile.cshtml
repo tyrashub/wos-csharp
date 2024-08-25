@@ -1,5 +1,5 @@
 @using SoloProject.ViewModels
-@model ProfileForm;
+@model ProfileForm
 
 @{
     Layout = "~/Views/Collection/_CollectionsLayout.cshtml";
@@ -17,21 +17,40 @@
                 <div class="mb-3">
                     <label class="form-label text-white" asp-for="Username">New Username</label>
                     <input class="form-control" asp-for="Username" />
-                    <span class="form-text text-warning" asp-validation-for="Username"></span>
+                    <span class="form-text text-danger" asp-validation-for="Username"></span>
+                </div>
+
+                <!-- Email -->
+                <div class="mb-3">
+                    <label class="form-label text-white" asp-for="Email">New Email</label>
+                    <input class="form-control" asp-for="Email" />
+                    <span class="form-text text-danger" asp-validation-for="Email"></span>
                 </div>
 
                 <!-- Bio -->
                 <div class="mb-3">
                     <label class="form-label text-white" asp-for="Bio">New Bio</label>
-                    <textarea id="bio" class="form-control" asp-for="Bio" style="height: 250px;"></textarea>
-                    <span class="form-text text-warning" asp-validation-for="Bio"></span>
+                    <textarea class="form-control" asp-for="Bio" style="height: 250px;"></textarea>
+                    <span class="form-text text-danger" asp-validation-for="Bio"></span>
+                </div>
+
+                <!-- Password -->
+                <div class="mb-3">
+                    <label class="form-label text-white" asp-for="Password">New Password</label>
+                    <input class="form-control" asp-for="Password" />
+                    <span class="form-text text-danger" asp-validation-for="Password"></span>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label text-white" asp-for="ConfirmPassword">Retype Password</label>
+                    <input class="form-control" asp-for="ConfirmPassword" />
+                    <span class="form-text text-danger" asp-validation-for="ConfirmPassword"></span>
                 </div>
 
                 <!-- Profile Image -->
                 <div class="mb-3">
                     <label class="form-label text-white" asp-for="ProfileImage">New Profile Image</label>
                     <input type="file" class="form-control" asp-for="ProfileImage" />
-                    <span class="form-text text-warning" asp-validation-for="ProfileImage"></span>
+                    <span class="form-text text-danger" asp-validation-for="ProfileImage"></span>
                 </div>
 
                 <!-- Submit Button -->

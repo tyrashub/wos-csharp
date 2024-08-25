@@ -22,44 +22,46 @@
 </head>
 
 <body class="body">
+    
     <!-- My Collections -->
     <div class="row">
         <div class="col-md-12">
             <div class="row">
-                <!-- Profile Card -->
-                <h2 class="text-white">My Profile🌟</h2>
-                <div class="card mb-5 collection-card">
-                    <div class="card-body">
-                        <img src="@user?.ProfileImage" class="rounded-circle mb-3" alt="Profile Image"
-                            style="width: 100px; height: 100px;">
-                        <h5 class="card-title text-white">Welcome back,<a href="#" class="text-decoration-none">
-                                @Html.Raw("@")@user?.Username</a></h5>
-                        <br>
-                        <strong>
-                            <h6 class="text-white">About Me:</h6>
-                        </strong>
-                        <p class="text-white">@user?.Bio</p>
-                        <a href="/collections/profile/@user?.UserId/edit"
-                            class="btn btn-sm text-white"  style="background-color: #c36b4dfb;" >Edit</a>
+                <div class="col-md-10">
+                    <h2 class="text-white">My Collections🪄</h2>
+                    <div class="row">
+                        @foreach (var collection in collections)
+                        {
+                            <div class="col-md-3 mb-3">
+                                <div class="card shadow collection-card1 d-flex" style="background-color: #b48676fb; flex-direction: column;">
+                                    <img src="@collection.CoverImage" class="card-img-top img" alt="Cover Image">
+                                    <div class="card-body cover-img text-center align-content-end">
+                                        <h5 class="card-title text-white">@collection?.CollectionName</h5>
+                                        <small class="text-white">Uploaded on: @collection?.Date?.ToString("MM/dd/yyyy")</small>
+                                        <a href="/collections/@collection?.CollectionId" style="background-color: #7a391b9f;" class="btn btn shadow text-white mt-2 btn">View</a>
+                                    </div>
+                                </div>
+                            </div>
+                        }
                     </div>
                 </div>
-                <h2 class="text-white">My Collections🪄</h2>
-                @foreach (var collection in collections)
-                {
-                    <div class="col-md-2 mb-3 ">
-                        <div class="card shadow collection-card" style="background-color: #f0b69e;">
-                            <img src="@collection.CoverImage" class="card-img-top img" alt="Cover Image">
-                            <div class="card-body cover-img text-center align-content-end">
-                                <h5 class="card-title text-white">@collection?.CollectionName</h5>
-                                <small class="text-muted">Uploaded on: @collection?.Date?.ToString("MM/dd/yyyy")</small>
-                                <a href="/collections/@collection?.CollectionId"  style="background-color: #d26c4bfb;" class="btn btn shadow text-white mt-2 btn-block">View</a>
-                            </div>
+                <!-- Profile Card -->
+                <div class="col-sm-2 mt-5">
+                    <div class="card mb-5 p-3 collection-card1 profile" style="height: fit-content; background-color: #bd7861a5; position: sticky; top: 20px;">
+                        <h3 class="text-white text-justify">My Profile</h3>
+                        <div class="card-body p-2">
+                            <img src="@user?.ProfileImage" class="rounded-circle mb-3" alt="Profile Image" style="width: 100px; height: 100px;">
+                            <h5 class="card-title text-white text-justify">Welcome back,<a href="#" class="text-decoration-none">@Html.Raw("@")@user?.Username</a></h5>
+                            <br>
+                            <strong><h6 class="text-white">About Me:</h6></strong>
+                            <p class="text-white">@user?.Bio</p>
+                            <a href="/collections/profile/@user?.UserId/edit" class="btn btn-sm text-white" style="background-color:#7a391b9f;">Edit</a>
                         </div>
                     </div>
-                }
-                <div class="col-md-2 mt-3">
                 </div>
             </div>
+        </div>
+    </div>
 
 
             @* <a href="/collections/new" class="btn btn-info text-white mt-3 mb-3">New Collection</a> *@
@@ -83,11 +85,10 @@
             </div>
             </div> *@
             @* </div> *@
-        </div>
         <div class="row">
             <!-- Art Progress Calendar -->
             <div class="col-sm-6 mt-3">
-                <div class="card shadow card collection-card" style="height: 640px; background-color: #f0b69e;">
+                <div class="card shadow card collection-card" style="height: 640px; background-color: #b8816ffb;">
                     <div class="card-body">
                         <h3 class="card-title text-center text-white">Art Progress🗓️</h3>
                         <div id="calendar" class="shadow-sm border p-3" style="background-color: white;"></div>
@@ -97,7 +98,7 @@
 
             <!-- Log Progress Form -->
             <div class="col-sm-6 mt-3 mb-3">
-                <div class="card shadow card collection-card" style="height: 640px; background-color: #f0b69e;">
+                <div class="card shadow card collection-card" style="height: 640px; background-color:  #b8816ffb;">
                     <div class="card-body">
                         <h4 class="text-center text-white">Log Progress📝</h4>
                         <form>
@@ -143,11 +144,12 @@
                                 <label for="imageUpload" class="text-white">Add an image (optional)</label>
                                 <input type="file" class="form-control-file text-white" id="imageUpload" name="imageUpload">
                             </div>
-                            <button type="submit" class="btn text-white btn-block" style="background-color: #d26c4bfb;">Log Progress</button>
+                            <button type="submit" class="btn text-white btn-block" style="background-color:#7a391b9f;">Create Log</button>
                         </form>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
 
         <script src="~/js/site.js"></script>

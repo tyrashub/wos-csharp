@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\images\\assets\\june.jpeg"
     },
     {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\assets\\kermie.jpg",
+      "PackagePath": "staticwebassets\\images\\assets\\kermie.jpg"
+    },
+    {
       "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\assets\\la.webp",
       "PackagePath": "staticwebassets\\images\\assets\\la.webp"
     },
@@ -71,6 +75,10 @@
     {
       "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\assets\\may2.jpeg",
       "PackagePath": "staticwebassets\\images\\assets\\may2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\assets\\peach.jpg",
+      "PackagePath": "staticwebassets\\images\\assets\\peach.jpg"
     },
     {
       "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\assets\\q.jpg",

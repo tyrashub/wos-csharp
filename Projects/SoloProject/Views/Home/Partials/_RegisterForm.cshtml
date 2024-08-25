@@ -1,27 +1,30 @@
 @model User;
-<h1 class="display-6 mb-3 text-white">Register for more!</h1>
-<form asp-action="Register" asp-controller="Home" method="post" class="form">
+
+@{
+    var user = Model;
+}
+
+<h1 class="display-6 mb-3 text-white text-center">Register for more!</h1>
+<form asp-action="Register" asp-controller="Home" method="post" enctype="multipart/form-data">
     <div class="mb-3">
-        <label class="form-label text-white" asp-for="Username"></label>
-        <input class="form-control text-white" asp-for="Username">
-        <span class="form-text text-warning" asp-validation-for="Username"></span>
-    </div>
-    <div class="mb-3">
-        <label class="form-label text-white" asp-for="Email"></label>
-        <input class="form-control text-white" asp-for="Email">
-        <span class="form-text text-warning" asp-validation-for="Email"></span>
-    </div>
-    <div class="mb-3">
-        <label class="form-label text-white" asp-for="Password"></label>
-        <input class="form-control text-white" asp-for="Password">
-        <span class="form-text text-warning" asp-validation-for="Password"></span>
+        <label class="form-label text-white" asp-for="@user.Username">Username</label>
+        <input class="form-control text-dark" asp-for="@user.Username">
+        <span class="form-text text-danger" asp-validation-for="@user.Username"></span>
     </div>
     <div class="mb-3">
-        <label class="form-label text-white" asp-for="ConfirmPassword"></label>
-        <input class="form-control text-white" asp-for="ConfirmPassword">
-        <span class="form-text text-warning" asp-validation-for="ConfirmPassword"></span>
+        <label class="form-label text-white" asp-for="@user.Email">Email</label>
+        <input class="form-control text-dark" asp-for="@user.Email">
+        <span class="form-text text-danger" asp-validation-for="@user.Email"></span>
     </div>
-    <div class="text-end">
-        <button type="submit" class="btn text-white">Submit</button>
+    <div class="mb-3">
+        <label class="form-label text-white" asp-for="@user.Password">Password</label>
+        <input class="form-control text-dark" asp-for="@user.Password" type="password">
+        <span class="form-text text-danger" asp-validation-for="@user.Password"></span>
     </div>
+    <div class="mb-3">
+        <label class="form-label text-white" asp-for="@user.ConfirmPassword">Confirm Password</label>
+        <input class="form-control text-dark" asp-for="@user.ConfirmPassword" type="password">
+        <span class="form-text text-danger" asp-validation-for="@user.ConfirmPassword"></span>
+    </div>
+    <button type="submit" class="btn text-white">Register</button>
 </form>
