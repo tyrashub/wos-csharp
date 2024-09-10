@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\css\\bootstrap (minty).css",
+      "PackagePath": "staticwebassets\\css\\bootstrap (minty).css"
+    },
+    {
       "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -103,6 +107,58 @@
     {
       "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\assets\\z.jpg",
       "PackagePath": "staticwebassets\\images\\assets\\z.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\website\\dashboard-bottom.png",
+      "PackagePath": "staticwebassets\\images\\website\\dashboard-bottom.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\website\\dashboard-top.png",
+      "PackagePath": "staticwebassets\\images\\website\\dashboard-top.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\website\\delete-msg.png",
+      "PackagePath": "staticwebassets\\images\\website\\delete-msg.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\website\\details-bottom.png",
+      "PackagePath": "staticwebassets\\images\\website\\details-bottom.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\website\\details-top.png",
+      "PackagePath": "staticwebassets\\images\\website\\details-top.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\website\\edit-collection.png",
+      "PackagePath": "staticwebassets\\images\\website\\edit-collection.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\website\\edit-profile.png",
+      "PackagePath": "staticwebassets\\images\\website\\edit-profile.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\website\\explore-bottom.png",
+      "PackagePath": "staticwebassets\\images\\website\\explore-bottom.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\website\\explore-top.png",
+      "PackagePath": "staticwebassets\\images\\website\\explore-top.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\website\\landing-bottom.png",
+      "PackagePath": "staticwebassets\\images\\website\\landing-bottom.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\website\\landing-top.png",
+      "PackagePath": "staticwebassets\\images\\website\\landing-top.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\website\\new-collection.png",
+      "PackagePath": "staticwebassets\\images\\website\\new-collection.png"
+    },
+    {
+      "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\website\\reg-log.png",
+      "PackagePath": "staticwebassets\\images\\website\\reg-log.png"
     },
     {
       "Id": "C:\\Users\\TyraCato\\Desktop\\wos-csharp\\Projects\\SoloProject\\wwwroot\\images\\wireframes\\collection-details.png",

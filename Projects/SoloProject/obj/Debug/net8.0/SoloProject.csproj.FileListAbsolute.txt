@@ -99,7 +99,6 @@ C:\Users\TyraCato\Desktop\wos-csharp\Projects\SoloProject\obj\Debug\net8.0\SoloP
 C:\Users\TyraCato\Desktop\wos-csharp\Projects\SoloProject\obj\Debug\net8.0\SoloProject.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\TyraCato\Desktop\wos-csharp\Projects\SoloProject\obj\Debug\net8.0\SoloProject.RazorAssemblyInfo.cache
 C:\Users\TyraCato\Desktop\wos-csharp\Projects\SoloProject\obj\Debug\net8.0\SoloProject.RazorAssemblyInfo.cs
-C:\Users\TyraCato\Desktop\wos-csharp\Projects\SoloProject\obj\Debug\net8.0\SoloProject.sourcelink.json
 C:\Users\TyraCato\Desktop\wos-csharp\Projects\SoloProject\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\TyraCato\Desktop\wos-csharp\Projects\SoloProject\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\TyraCato\Desktop\wos-csharp\Projects\SoloProject\obj\Debug\net8.0\staticwebassets\msbuild.SoloProject.Microsoft.AspNetCore.StaticWebAssets.props
